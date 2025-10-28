@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to my portfolio page</title>
-
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-
+        <h3 class="cssanimation sequence leFadeIn">Welcome to my Portfolio Website </h3>
         <i class="bx bx-menu" id="menu-icon"></i>
-
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Project</a>
+            <a href="#carousel">Certificate</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -29,184 +26,157 @@
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's me</h3>
-            <h1>Somprasong Wasuwid</h1>
+            <h1 class="cssanimation sequence leFadeIn">Somprasong Wasuwid</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nam laboriosam corporis quo asperiores rem.</p>
+            <p>This portfolio show about all project i ever do. i hope you enjoy to watch this profolio thankyou.</p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href=""><span class="multiple-text2"></span></a>
         </div>
-
         <div class="home-img">
-            <img src="img/Emiya no bg..png" alt="">
+            <!-- <img src="img/Emiya no bg..png" alt=""> -->
+            <img src="img/132553-removebg-preview.png" alt="">
         </div>
-
     </section>
 
     <!--about section design -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="img/2.remove.bg.png" alt="">
+            <!-- <img src="img/2.remove.bg.png" alt=""> -->
+            <img src="img/132552-removebg-preview.png" alt="">
         </div>
-
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Frontend Developer!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing 
-                elit. Quidem, labore modi accusantium autem unde delectus 
-                eum amet nam quisquam repudiandae voluptatem ad necessitatibus 
-                maxime nobis?
-            </p>
-            <a href="#" class="btn">Read More!</a>
+            <p>Third-year Computer Engineering student at Rajamangala University of Technology Phra Nakhon, with a proven track record of applying AI technologies and developing innovative technical solutions. Demonstrated expertise in problem-solving and continuous learning, committed to leveraging cutting-edge technologies to address real-world challenges.</p>
+            <a href="" class="btn">Read More!</a>
         </div>
     </section>
 
     <!-- service section design -->
     <section class="services" id="services">
         <h2 class="heading">Our <span>Services</span></h2>
-
         <div class="services-container">
-
             <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
+                <i class='bx bx-code-alt'></i>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Impedit, repellendus. 
-                    Saepe recusandae ex perspiciatis 
-                    fugit?</p>
-                    <a href="#" class="btn">Read More!</a>
+                <p>Build responsive, user-friendly websites with HTML, CSS, JavaScript, React.js, and Node.js to help your business reach customers on any device. Focus on speed and security.</p>
+                <a href="#" class="btn">Read More!</a>
             </div>
-
             <div class="services-box">
                 <i class='bx bxl-play-store'></i>
                 <h3>App Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Impedit, repellendus. 
-                    Saepe recusandae ex perspiciatis 
-                    fugit?</p>
-                    <a href="#" class="btn">Read More!</a>
+                <p>Create seamless mobile and web apps with React Native, Java, PHP, and Python to boost user engagement. Covering both iOS and Android.</p>
+                <a href="#" class="btn">Read More!</a>
             </div>
-
             <div class="services-box">
                 <i class='bx bx-palette'></i>
                 <h3>UX/UI Designer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Impedit, repellendus. 
-                    Saepe recusandae ex perspiciatis 
-                    fugit?</p>
-                    <a href="#" class="btn">Read More!</a>
+                <p>Design beautiful, intuitive interfaces with Figma, Tailwind CSS, and Bootstrap to elevate your user experience and drive higher conversions.</p>
+                <a href="#" class="btn">Read More!</a>
             </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design (grid เดิม) -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/Login&Register page.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Login & Register Full system Design</h4>
+                    <p>Created a single-page login and registration form with seamless animations, improving user experience and interface responsiveness.</p>
+                    <a href="https://68ede40ddcba6c179a71a6bf--dapper-crumble-bfb529.netlify.app/"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img\Screenshot 2025-10-10 162641.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Car Showroom Management</h4>
+                    <p> Developed a responsive web application for car showroom operations, featuring a user-friendly interface and efficient database
+        management for inventory and customer data.</p>
+                    <a href="https://web-carshowroom-system-git-main-kyubeys-projects-6700978a.vercel.app/login"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img\Screenshot 2025-10-10 163431.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Apple Head Phone Animation Website</h4>
+                    <p>Built a product showcase website with animated transitions for Apple headphones, enhancing visual appeal and user interaction.</p>
+                    <a href="https://67d7c571e50e2c3293ad2341--headphone-slider-animation.netlify.app/"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="portfolio-box">
+                <img src="img/4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem natus numquam, expedita asperiores nisi aliquid?</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem natus numquam, expedita asperiores nisi aliquid?</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem natus numquam, expedita asperiores nisi aliquid?</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div> -->
 
         </div>
     </section>
 
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
-
-        <div class="portfolio-container">
-
-            <div class="portfolio-box">
-                <img src="img/Login&Register page.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Login Page Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Rem natus numquam, 
-                         expedita asperiores nisi aliquid?</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
+    <!-- carousel section design (ใหม่ - สำหรับ Certificate) -->
+    <section class="carousel-section" id="carousel">
+        <h2 class="heading">My <span>Certificates</span></h2>
+        <div class="carousel-wrapper">
+            <ul class="carousel-slides"></ul>
+            <div class="controls">
+                <button class="control previous" title="Go to previous slide">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+                <button class="control next" title="Go to next slide">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
             </div>
-
-            <div class="portfolio-box">
-                <img src="img/Kyubet fib games.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Kyubey Games Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Rem natus numquam, 
-                         expedita asperiores nisi aliquid?</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="img/3.jpeg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Rem natus numquam, 
-                         expedita asperiores nisi aliquid?</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                    <img src="img/4.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Rem natus numquam, 
-                         expedita asperiores nisi aliquid?</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                    <img src="img/5.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Rem natus numquam, 
-                         expedita asperiores nisi aliquid?</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                    <img src="img/6.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Rem natus numquam, 
-                         expedita asperiores nisi aliquid?</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-            
         </div>
-
     </section>
 
     <!-- contact section design -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me !</span></h2>
-
         <form action="#">
-
             <div class="input-box">
                 <input type="text" placeholder="Full Name">
                 <input type="email" placeholder="Email Address">
             </div>
-
             <div class="input-box">
                 <input type="text" placeholder="Mobile Number">
                 <input type="text" placeholder="Email Subject">
             </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
-
         </form>
-
     </section>
 
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2024 by Somprasong Wasuwid | All Right Reserved.</p>
         </div>
-
         <div class="footer-icon">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
@@ -214,10 +184,9 @@
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
     <!-- typed js -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
     <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
 </body>
 </html>
