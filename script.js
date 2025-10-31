@@ -35,7 +35,6 @@ window.onscroll = () => {
 //scroll reveal
 ScrollReveal({
     reset: true,
-    //ตัวนี้เอาไว้ถ้าไม่อยากให้มันเเสดงซ้ำตอนเลื้อนขึ้นลง ก็Commentสะ
     distance: '80px',
     duration: 2000,
     delay: 200
@@ -48,7 +47,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // typed js
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Website Developer', 'Prompt Engineering', 'Backend Website Developer', 'Fullstack Website Developer' , 'Vibe Website Developer' ],
+    strings: ['Frontend Website Developer', 'Prompt Engineering', 'Backend Website Developer', 'Fullstack Website Developer', 'Vibe Website Developer'],
     typeSpeed: 90,
     backSpeed: 90,
     backDelay: 180,
@@ -116,88 +115,89 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Carousel Logic (ปรับสำหรับ Certificate - เพิ่ม description)
+// ===============================================
+// ENHANCED CAROUSEL LOGIC - FULLY RESPONSIVE
+// ===============================================
+
 const slides = [
     { src: "img/00.jpg", pdfPath: "img/00.jpg", title: "Gemini Certified Educator", description: "Certificate from Google for Education, awarded for demonstrating the knowledge, skills, and basic competencies needed to use Google AI in education. Issued on 16/09/2025, valid through 15/09/2028.", button: "View PDF" },
     { src: "img/01.png", pdfPath: "img/01.png", title: "Basic Prompt Engineering", description: "Verified certificate from Mahidol University (CBTU) for successfully completing the Basic Prompt Engineering course with passing grade. Completed on October 5, 2025. Instructor: Tawesak Samanchuen, Ph.D.", button: "View PDF" },
     { src: "img/10.png", pdfPath: "img/10.png", title: "Generative AI ChatGPT Course", description: "Certificate from Kasetsart University for completing the Generative AI ChatGPT course, awarded to Somprasong Wasuwid on November 5, 2025.", button: "View PDF" },
-    { src: "img/11.png", pdfPath: "img/11.png", title: "AI for All: From Basics to GenAI Practice ", description: "NVIDIA Deep Learning Institute Certificate of Completion for successfully completing the AI for All: From Basics to GenAI Practice course, issued in October 2025.", button: "View PDF" },
+    { src: "img/11.png", pdfPath: "img/11.png", title: "AI for All: From Basics to GenAI Practice", description: "NVIDIA Deep Learning Institute Certificate of Completion for successfully completing the AI for All: From Basics to GenAI Practice course, issued in October 2025.", button: "View PDF" },
 ];
 
 let current = 0;
-let ul; // global for ul
+let ul;
+let touchStartX = 0;
+let touchEndX = 0;
 
-function handleMouseMove(e) {
-    const el = e.currentTarget;
-    const rect = el.getBoundingClientRect();
-    const x = e.clientX - (rect.left + rect.width / 2);
-    const y = e.clientY - (rect.top + rect.height / 2);
-    el.style.setProperty('--x', `${x}px`);
-    el.style.setProperty('--y', `${y}px`);
+function setCurrent(idx) {
+    if (idx < 0) idx = slides.length - 1;
+    if (idx >= slides.length) idx = 0;
+    current = idx;
+    updateCarousel();
 }
 
-function handleMouseLeave(e) {
-    e.currentTarget.style.setProperty('--x', '0px');
-    e.currentTarget.style.setProperty('--y', '0px');
+function updateCarousel() {
+    // Smooth scroll to the current slide
+    ul.style.transform = `translateX(-${current * 100}%)`;
+    
+    // Update slide states
+    document.querySelectorAll('.slide').forEach((slideEl, i) => {
+        const isActive = i === current;
+        
+        if (isActive) {
+            slideEl.classList.add('active');
+            slideEl.style.transform = 'scale(1)';
+        } else {
+            slideEl.classList.remove('active');
+            slideEl.style.transform = 'scale(0.95)';
+        }
+        
+        const content = slideEl.querySelector('.content');
+        if (content) {
+            if (isActive) {
+                content.classList.add('active');
+            } else {
+                content.classList.remove('active');
+            }
+        }
+    });
 }
 
-function imageLoaded(e) {
-    e.target.style.opacity = '1';
+function handlePreviousClick() {
+    setCurrent(current - 1);
+}
+
+function handleNextClick() {
+    setCurrent(current + 1);
 }
 
 function handleSlideClick(e) {
-    const link = e.target.closest('a.project-btn'); // เปลี่ยนจาก button เป็น a tag
-    if (link) return; // ถ้ากดลิงก์ View PDF ไม่เปลี่ยน slide
+    const link = e.target.closest('a.project-btn');
+    if (link) return; // Don't change slide if clicking the View PDF button
+    
     const index = parseInt(e.currentTarget.dataset.index);
     if (index !== current) {
         setCurrent(index);
     }
 }
 
-function handlePreviousClick() {
-    let prev = current - 1;
-    setCurrent(prev < 0 ? slides.length - 1 : prev);
+function handleTouchStart(e) {
+    touchStartX = e.changedTouches[0].screenX;
 }
 
-function handleNextClick() {
-    let next = current + 1;
-    setCurrent(next === slides.length ? 0 : next);
-}
-
-function setCurrent(idx) {
-    current = idx;
-    updateCarousel();
-}
-
-function updateCarousel() {
-    const numSlides = slides.length;
-    ul.style.transform = `translateX(-${current * (100 / numSlides)}%)`;
-
-    document.querySelectorAll('.slide').forEach((slideEl, i) => {
-        const isActive = i === current;
-        if (isActive) {
-            slideEl.style.transform = 'scale(1) rotateX(0deg)';
-        } else {
-            slideEl.style.transform = 'scale(0.98) rotateX(8deg)';
-        }
-
-        const bgLayer = slideEl.querySelector('.bg-layer');
-        const overlay = slideEl.querySelector('.overlay');
-        const img = slideEl.querySelector('.slide-img');
-        const content = slideEl.querySelector('.content');
-
-        if (isActive) {
-            bgLayer.style.transform = 'translate3d(calc(var(--x) / 30), calc(var(--y) / 30), 0)';
-            overlay.style.opacity = '1';
-            img.style.opacity = '1';
-            content.classList.add('active');
-        } else {
-            bgLayer.style.transform = 'none';
-            overlay.style.opacity = '0';
-            img.style.opacity = '0.5';
-            content.classList.remove('active');
-        }
-    });
+function handleTouchEnd(e) {
+    touchEndX = e.changedTouches[0].screenX;
+    
+    // Swipe left (next)
+    if (touchEndX < touchStartX - 50) {
+        handleNextClick();
+    }
+    // Swipe right (previous)
+    if (touchEndX > touchStartX + 50) {
+        handlePreviousClick();
+    }
 }
 
 function initCarousel() {
@@ -205,8 +205,9 @@ function initCarousel() {
     if (!wrapper) return;
 
     ul = document.querySelector('.carousel-slides');
-    ul.innerHTML = ''; // ล้างก่อน
+    ul.innerHTML = ''; // Clear existing content
 
+    // Create slides
     slides.forEach((slideData, index) => {
         const perspective = document.createElement('div');
         perspective.className = 'perspective';
@@ -216,7 +217,7 @@ function initCarousel() {
         li.dataset.index = index;
         li.innerHTML = `
             <div class="bg-layer">
-                <img class="slide-img" src="${slideData.src}" alt="${slideData.title}" loading="eager" decoding="sync">
+                <img class="slide-img" src="${slideData.src}" alt="${slideData.title}" loading="eager">
                 <div class="overlay"></div>
             </div>
             <article class="content">
@@ -228,30 +229,28 @@ function initCarousel() {
             </article>
         `;
 
-        // เพิ่ม event listeners
-        li.addEventListener('mousemove', handleMouseMove);
-        li.addEventListener('mouseleave', handleMouseLeave);
+        // Add event listeners
         li.addEventListener('click', handleSlideClick);
-
-        // Image load
-        const img = li.querySelector('.slide-img');
-        if (img.complete) {
-            imageLoaded({ target: img });
-        } else {
-            img.addEventListener('load', imageLoaded);
-        }
+        li.addEventListener('touchstart', handleTouchStart, { passive: true });
+        li.addEventListener('touchend', handleTouchEnd, { passive: true });
 
         perspective.appendChild(li);
         ul.appendChild(perspective);
     });
 
-    // Controls
+    // Setup controls
     document.querySelector('.control.previous').addEventListener('click', handlePreviousClick);
     document.querySelector('.control.next').addEventListener('click', handleNextClick);
 
-    // Init first slide
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') handlePreviousClick();
+        if (e.key === 'ArrowRight') handleNextClick();
+    });
+
+    // Initialize first slide
     setCurrent(0);
 }
 
-// เรียก initCarousel ที่นี่ (หลัง DOM load)
+// Initialize carousel when DOM is ready
 document.addEventListener('DOMContentLoaded', initCarousel);
