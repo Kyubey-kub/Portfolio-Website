@@ -1,16 +1,16 @@
-# 🌐 Web Portfolio - Personal Portfolio Website
+# 🌐 Personal Portfolio Website - Somprasong Wasuwid
 
 <div align="center">
 
-![Portfolio Banner](https://via.placeholder.com/1200x300/667eea/ffffff?text=Professional+Portfolio+Website)
+![Portfolio Banner](https://via.placeholder.com/1200x300/00ffff/000000?text=Welcome+to+My+Portfolio+Website)
 
-[![Live Demo](https://img.shields.io/badge/demo-online-success?style=for-the-badge&logo=netlify)](https://imaginative-dusk-9f95ff.netlify.app/#home)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/Kyubey-kub/Web-Portfolio)
+[![Live Demo](https://img.shields.io/badge/demo-online-success?style=for-the-badge&logo=netlify)](YOUR_LIVE_URL_HERE)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/YOUR_REPO)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 
-**A sleek and modern personal portfolio website to showcase your skills, projects, and achievements with style!**
+**A modern and responsive personal portfolio website showcasing skills, projects, and professional certificates with an interactive carousel!**
 
-[🌟 Live Demo](https://imaginative-dusk-9f95ff.netlify.app/#home) • [📂 Repository](https://github.com/Kyubey-kub/Web-Portfolio) • [📧 Contact](mailto:your-email@example.com)
+[🌟 Live Demo](#) • [📂 Repository](#) • [📧 Contact](#contact)
 
 </div>
 
@@ -27,7 +27,6 @@
 - [Customization Guide](#-customization-guide)
 - [Deployment](#-deployment)
 - [Browser Support](#-browser-support)
-- [Contributing](#-contributing)
 - [License](#-license)
 - [Author](#-author)
 
@@ -35,18 +34,15 @@
 
 ## 🎯 Overview
 
-**Web Portfolio** is a beautifully crafted personal portfolio website designed to help professionals showcase their skills, projects, and achievements in an elegant and impactful way. Whether you're a developer, designer, photographer, or creative professional, this template provides everything you need to create a stunning online presence.
+This is a professionally designed portfolio website built to showcase my work as a **Computer Engineering student** at Rajamangala University of Technology Phra Nakhon. The website features a modern dark theme with cyan accents, smooth animations, and an interactive certificate carousel system.
 
-### Why Choose This Portfolio?
+### Key Highlights
 
-This project combines modern web design principles with practical functionality to deliver:
-
-- **First Impression Matters**: Eye-catching hero section with smooth animations
-- **Professional Presentation**: Clean, minimalistic design that puts your work in the spotlight
-- **Easy to Use**: Simple setup process with clear documentation
-- **SEO Optimized**: Built with best practices for search engine visibility
-- **Fast Loading**: Optimized assets and code for lightning-fast performance
-- **Mobile-First**: Designed for all devices, ensuring perfect display everywhere
+- **Enhanced Certificate Showcase**: Interactive carousel with smooth transitions
+- **Fully Responsive**: Perfect display on all devices (mobile, tablet, desktop)
+- **Modern UI/UX**: Clean design with smooth scroll animations
+- **Fast Performance**: Optimized for quick loading times
+- **SEO Friendly**: Built with best practices for search visibility
 
 ---
 
@@ -54,42 +50,62 @@ This project combines modern web design principles with practical functionality 
 
 ### 🎨 Design Features
 
-- **Modern & Clean UI**: Minimalistic design with focus on content
-- **Smooth Animations**: Subtle scroll animations and transitions
-- **Responsive Grid Layout**: Perfectly adapts to any screen size
-- **Custom Color Schemes**: Easy to customize color palette
-- **Typography Excellence**: Carefully selected fonts for readability
-- **Dark/Light Theme**: *(Optional feature you can add)*
+- **Modern Dark Theme**: Elegant black background with cyan (#00ffff) accent colors
+- **Smooth Animations**: ScrollReveal animations and CSS transitions
+- **Responsive Grid Layout**: Adapts perfectly to any screen size
+- **Interactive Elements**: Hover effects and smooth scrolling navigation
+- **Custom Typography**: Poppins font family for modern look
+- **Floating Animations**: Hero section with floating image effect
 
-### 📱 Responsive Design
+### 📱 Fully Responsive Design
 
-- **Mobile-First Approach**: Optimized for smartphones and tablets
-- **Tablet Ready**: Perfect display on iPad and similar devices
-- **Desktop Optimized**: Stunning presentation on large screens
-- **Cross-Browser Compatible**: Works seamlessly across all modern browsers
+- **Mobile First**: Optimized for smartphones (320px - 768px)
+- **Tablet Ready**: Perfect display on iPads and tablets (768px - 991px)
+- **Desktop Optimized**: Stunning presentation on large screens (992px+)
+- **Cross-Browser Compatible**: Works on Chrome, Firefox, Safari, Edge
+
+### 🎪 Interactive Certificate Carousel
+
+- **Smooth Navigation**: Left/Right arrow buttons for easy browsing
+- **Touch Support**: Swipe gestures on mobile devices
+- **Keyboard Navigation**: Arrow keys support for desktop users
+- **Auto-Scaling**: Active certificate scales up for emphasis
+- **Responsive Layout**: Adjusts perfectly to all screen sizes
 
 ### 🛠️ Sections Included
 
-1. **Hero Section**: Eye-catching introduction with your name and tagline
-2. **About Me**: Professional bio and personal introduction
-3. **Skills**: Visual representation of your technical abilities
-4. **Portfolio/Projects**: Showcase your best work with images and descriptions
-5. **Experience/Resume**: Timeline of your professional journey
-6. **Services**: What you offer to potential clients *(if applicable)*
-7. **Testimonials**: Client reviews and recommendations *(optional)*
-8. **Contact Form**: Easy way for visitors to reach you
-9. **Social Media Links**: Connect with visitors on various platforms
-10. **Footer**: Additional information and copyright notice
+1. **Home/Hero Section**: Animated introduction with profile image
+   - Dynamic typing effect for roles
+   - Social media links
+   - Download CV button
 
-### ⚡ Interactive Elements
+2. **About Me**: Professional introduction
+   - Background information
+   - Current education status
+   - Career objectives
 
-- Smooth scrolling navigation
-- Hover effects on buttons and cards
-- Animated skill bars or progress indicators
-- Lightbox for project images
-- Form validation for contact section
-- Back-to-top button
-- Loading animations
+3. **Services**: What I offer
+   - Web Development
+   - App Development
+   - UX/UI Design
+
+4. **Portfolio/Projects**: Latest work showcase
+   - Login & Register System
+   - Car Showroom Management Web
+   - Apple Headphone Animation Website
+
+5. **Certificates Carousel**: Interactive certificate showcase
+   - Gemini Certified Educator (Google)
+   - Basic Prompt Engineering (Mahidol University)
+   - Generative AI ChatGPT (Kasetsart University)
+   - AI for All (NVIDIA Deep Learning Institute)
+
+6. **Contact Form**: Easy way to reach out
+   - Full name and email fields
+   - Mobile number and subject
+   - Message textarea
+
+7. **Footer**: Copyright and social links
 
 ---
 
@@ -97,18 +113,18 @@ This project combines modern web design principles with practical functionality 
 
 ### 🌐 Live Website
 
-Visit the live portfolio: **[imaginative-dusk-9f95ff.netlify.app](https://imaginative-dusk-9f95ff.netlify.app/#home)**
+Visit the live portfolio: **[YOUR_LIVE_URL_HERE](#)**
 
-### 📸 Preview
+### 📸 Screenshots
 
-> **Note**: Add your actual screenshots here
+#### Home Section
+![Home Section](https://via.placeholder.com/800x400/000000/00ffff?text=Home+Section)
 
-```
-[Home Page Preview]
-[About Section Preview]
-[Portfolio Section Preview]
-[Contact Section Preview]
-```
+#### Certificate Carousel
+![Certificate Carousel](https://via.placeholder.com/800x400/000000/00ffff?text=Certificate+Carousel)
+
+#### Projects Section
+![Projects Section](https://via.placeholder.com/800x400/000000/00ffff?text=Projects+Section)
 
 ---
 
@@ -116,27 +132,25 @@ Visit the live portfolio: **[imaginative-dusk-9f95ff.netlify.app](https://imagin
 
 ### Core Technologies
 
-| Technology | Purpose | Documentation |
-|-----------|---------|---------------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Structure & Content | [Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling & Layout | [Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Interactivity | [Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| Technology | Purpose | Version |
+|-----------|---------|---------|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Structure | HTML5 |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling | CSS3 |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Interactivity | ES6+ |
 
-### Libraries & Frameworks
+### Libraries & Plugins
 
-- **Font Awesome**: For beautiful icons
-- **Google Fonts**: Custom typography
-- **AOS (Animate On Scroll)**: Scroll animations *(if used)*
-- **Typed.js**: Text animation effects *(if used)*
-- **EmailJS**: Contact form functionality *(if used)*
-- **Particles.js**: Background effects *(if used)*
+- **BoxIcons** (v2.1.4): Icon library
+- **ScrollReveal**: Scroll animation library
+- **Typed.js** (v2.1.0): Text typing animation
+- **CSS Animation.io**: Letter animation effects
 
 ### Development Tools
 
 - **VS Code**: Code editor
 - **Git**: Version control
-- **Netlify**: Deployment platform
 - **Chrome DevTools**: Testing and debugging
+- **Live Server**: Local development server
 
 ---
 
@@ -144,12 +158,10 @@ Visit the live portfolio: **[imaginative-dusk-9f95ff.netlify.app](https://imagin
 
 ### Prerequisites
 
-Before you begin, ensure you have:
-
-- ✅ A modern web browser (Chrome, Firefox, Safari, Edge)
-- ✅ A code editor (VS Code recommended)
-- ✅ Basic knowledge of HTML, CSS, and JavaScript
-- ✅ Git installed on your computer (optional)
+- ✅ Modern web browser (Chrome, Firefox, Safari, Edge)
+- ✅ Code editor (VS Code recommended)
+- ✅ Basic knowledge of HTML, CSS, JavaScript
+- ✅ Git (optional, for version control)
 
 ### Installation
 
@@ -157,12 +169,12 @@ Before you begin, ensure you have:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Kyubey-kub/Web-Portfolio.git
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 
 # Navigate to the project directory
-cd Web-Portfolio
+cd YOUR_REPO
 
-# Open in your code editor
+# Open in VS Code
 code .
 ```
 
@@ -170,88 +182,68 @@ code .
 
 1. Click the "Code" button on GitHub
 2. Select "Download ZIP"
-3. Extract the ZIP file
+3. Extract the files
 4. Open the folder in your code editor
 
-### Usage
+### Running Locally
 
-#### Running Locally
-
-**Option 1: Simple HTTP Server (Python)**
-
-```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-```
-
-**Option 2: VS Code Live Server**
+#### Option 1: VS Code Live Server (Recommended)
 
 1. Install "Live Server" extension in VS Code
 2. Right-click on `index.html`
 3. Select "Open with Live Server"
+4. Browser will open at `http://127.0.0.1:5500`
 
-**Option 3: Open Directly**
+#### Option 2: Python HTTP Server
 
-- Simply double-click `index.html` to open in your browser
-- ⚠️ Some features may not work without a server
+```bash
+# For Python 3
+python -m http.server 8000
 
-#### Access the Website
+# For Python 2
+python -m SimpleHTTPServer 8000
 
-Open your browser and navigate to:
-- `http://localhost:8000` (if using Python server)
-- `http://127.0.0.1:5500` (if using Live Server)
-- Or the file path if opened directly
+# Then open: http://localhost:8000
+```
+
+#### Option 3: Direct Open
+
+- Double-click `index.html` to open in browser
+- ⚠️ Some features may require a local server
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Web-Portfolio/
+portfolio/
 │
-├── index.html                 # Main HTML file
-├── css/
-│   ├── style.css             # Main stylesheet
-│   ├── responsive.css        # Media queries for responsive design
-│   └── animations.css        # Animation styles (if separate)
+├── index.html              # Main HTML file with all sections
+├── style.css               # Complete stylesheet with responsive design
+├── script.js               # JavaScript for interactivity and carousel
 │
-├── js/
-│   ├── main.js               # Main JavaScript file
-│   ├── animations.js         # Animation scripts
-│   └── form-handler.js       # Contact form logic
+├── img/                    # Images folder
+│   ├── 00.jpg             # Gemini Certificate
+│   ├── 01.png             # Prompt Engineering Certificate
+│   ├── 10.png             # ChatGPT Certificate
+│   ├── 11.png             # NVIDIA AI Certificate
+│   ├── 132552-removebg-preview.png    # About section image
+│   ├── 132553-removebg-preview.png    # Home section image
+│   ├── Login&Register page.png         # Project 1 screenshot
+│   ├── Screenshot 2025-10-10 162641.png # Project 2 screenshot
+│   └── Screenshot 2025-10-10 163431.png # Project 3 screenshot
 │
-├── images/
-│   ├── profile/              # Profile pictures
-│   ├── projects/             # Project screenshots
-│   ├── skills/               # Skill icons
-│   └── background/           # Background images
-│
-├── assets/
-│   ├── fonts/                # Custom fonts (if any)
-│   ├── icons/                # Icon files
-│   └── documents/            # Resume/CV PDF
-│
-├── lib/                      # External libraries (if self-hosted)
-│   ├── fontawesome/
-│   ├── aos/
-│   └── typed/
-│
-├── .gitignore                # Git ignore file
-├── README.md                 # This file
-└── LICENSE                   # MIT License
+├── README.md               # This documentation file
+└── LICENSE                 # MIT License file
 
 ```
 
 ### Key Files Explained
 
-- **`index.html`**: Main HTML file containing all sections
-- **`css/style.css`**: Primary stylesheet with all design rules
-- **`css/responsive.css`**: Media queries for different screen sizes
-- **`js/main.js`**: JavaScript for interactivity and animations
-- **`images/`**: All image assets for the portfolio
+- **`index.html`**: Main HTML structure with semantic sections
+- **`style.css`**: Complete styling including responsive breakpoints
+- **`script.js`**: Interactive features and certificate carousel logic
+- **`img/`**: All images including certificates and project screenshots
 
 ---
 
@@ -259,105 +251,135 @@ Web-Portfolio/
 
 ### 1. Personal Information
 
-**Edit `index.html`** to update:
+**Edit `index.html`** to update your information:
 
 ```html
-<!-- Hero Section -->
-<h1>Your Name</h1>
-<p>Your Professional Title</p>
+<!-- Line 36-40: Hero Section -->
+<h3>Hello, It's me</h3>
+<h1 class="cssanimation sequence leFadeIn">Your Name</h1>
+<h3>And I'm a <span class="multiple-text"></span></h3>
+<p>Your introduction text here...</p>
 
-<!-- About Section -->
-<p>Your bio and description...</p>
-
-<!-- Contact Information -->
-<a href="mailto:your-email@example.com">your-email@example.com</a>
-<a href="tel:+1234567890">+1 (234) 567-890</a>
+<!-- Line 62-66: About Section -->
+<h3>Your Professional Title!</h3>
+<p>Your detailed bio and background...</p>
 ```
 
-### 2. Colors & Theme
+### 2. Update Certificate Data
 
-**Edit `css/style.css`** to customize colors:
+**Edit `script.js`** (around line 88-91) to update certificates:
+
+```javascript
+const slides = [
+    { 
+        src: "img/your-certificate.jpg", 
+        pdfPath: "img/your-certificate.pdf", 
+        title: "Certificate Name", 
+        description: "Certificate description and details...", 
+        button: "View PDF" 
+    },
+    // Add more certificates here...
+];
+```
+
+### 3. Customize Colors
+
+**Edit `style.css`** (lines 9-12) to change theme colors:
 
 ```css
 :root {
-  /* Primary Colors */
-  --primary-color: #667eea;      /* Main brand color */
-  --secondary-color: #764ba2;    /* Accent color */
-  
-  /* Background Colors */
-  --bg-color: #ffffff;           /* Main background */
-  --section-bg: #f8f9fa;         /* Section background */
-  
-  /* Text Colors */
-  --text-primary: #2d3748;       /* Main text */
-  --text-secondary: #718096;     /* Secondary text */
-  
-  /* Other Colors */
-  --border-color: #e2e8f0;
-  --shadow-color: rgba(0,0,0,0.1);
+    --bg-color: black;              /* Main background */
+    --second-bg-color: rgb(38, 35, 35); /* Section background */
+    --text-color: #fff;             /* Text color */
+    --main-color: rgb(0, 255, 255); /* Accent color (cyan) */
 }
 ```
 
-### 3. Adding Your Projects
+### 4. Update Projects
 
-**In `index.html`, add project cards:**
-
-```html
-<div class="project-card">
-  <img src="images/projects/project-name.jpg" alt="Project Name">
-  <h3>Project Title</h3>
-  <p>Project description...</p>
-  <div class="project-links">
-    <a href="https://project-demo.com" target="_blank">Live Demo</a>
-    <a href="https://github.com/username/repo" target="_blank">GitHub</a>
-  </div>
-</div>
-```
-
-### 4. Updating Skills
-
-**Edit the skills section:**
+**Edit `index.html`** (lines 111-140) to add/modify projects:
 
 ```html
-<div class="skill">
-  <div class="skill-name">HTML/CSS</div>
-  <div class="skill-bar">
-    <div class="skill-progress" style="width: 90%"></div>
-  </div>
+<div class="portfolio-box">
+    <img src="img/your-project.png" alt="Project Name">
+    <div class="portfolio-layer">
+        <h4>Project Title</h4>
+        <p>Project description...</p>
+        <a href="YOUR_PROJECT_URL"><i class='bx bx-link'></i></a>
+    </div>
 </div>
 ```
 
 ### 5. Social Media Links
 
-**Update social media icons:**
+**Edit `index.html`** (lines 43-47) to update social links:
 
 ```html
-<div class="social-links">
-  <a href="https://github.com/your-username" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://linkedin.com/in/your-profile" target="_blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://twitter.com/your-handle" target="_blank">
-    <i class="fab fa-twitter"></i>
-  </a>
+<div class="social-media">
+    <a href="YOUR_FACEBOOK_URL"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="YOUR_TWITTER_URL"><i class='bx bxl-twitter'></i></a>
+    <a href="YOUR_INSTAGRAM_URL"><i class='bx bxl-instagram-alt'></i></a>
+    <a href="YOUR_LINKEDIN_URL"><i class='bx bxl-linkedin'></i></a>
 </div>
 ```
 
-### 6. Resume/CV
+### 6. Services Section
 
-Place your PDF resume in `assets/documents/` and link it:
+**Edit `index.html`** (lines 78-108) to modify services:
 
 ```html
-<a href="assets/documents/your-resume.pdf" download class="btn-download">
-  Download Resume
-</a>
+<div class="services-box">
+    <i class='bx bx-code-alt'></i>
+    <h3>Your Service Name</h3>
+    <p>Service description and details...</p>
+    <a href="#" class="btn">Read More!</a>
+</div>
+```
+
+### 7. Typing Animation Text
+
+**Edit `script.js`** (line 65) to change typed text:
+
+```javascript
+const typed = new Typed('.multiple-text', {
+    strings: ['Your Role 1', 'Your Role 2', 'Your Role 3'],
+    typeSpeed: 90,
+    backSpeed: 90,
+    backDelay: 180,
+    loop: true
+});
 ```
 
 ---
 
 ## 🚢 Deployment
+
+### Deploy to GitHub Pages
+
+```bash
+# 1. Initialize Git repository
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Commit changes
+git commit -m "Initial commit: Portfolio website with certificate carousel"
+
+# 4. Add remote repository
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+
+# 5. Push to main branch
+git branch -M main
+git push -u origin main
+
+# 6. Enable GitHub Pages
+# Go to Repository Settings > Pages
+# Select "main" branch as source
+# Click Save
+```
+
+**Your site will be live at**: `https://YOUR_USERNAME.github.io/YOUR_REPO/`
 
 ### Deploy to Netlify (Recommended)
 
@@ -366,39 +388,17 @@ Place your PDF resume in `assets/documents/` and link it:
 1. Go to [Netlify](https://www.netlify.com/)
 2. Sign up or log in
 3. Drag your project folder to the deploy zone
-4. Your site is live! 🎉
+4. Site is live instantly! 🎉
 
 #### Method 2: GitHub Integration
 
-```bash
-# Push to GitHub first
-git add .
-git commit -m "Initial commit"
-git push origin main
+1. Push code to GitHub (follow steps above)
+2. On Netlify, click "New site from Git"
+3. Connect to GitHub
+4. Select your repository
+5. Click "Deploy site"
 
-# Then on Netlify:
-1. Click "New site from Git"
-2. Connect to GitHub
-3. Select your repository
-4. Click "Deploy site"
-```
-
-**Your site will be live at**: `https://your-site-name.netlify.app`
-
-### Deploy to GitHub Pages
-
-```bash
-# Create gh-pages branch
-git checkout -b gh-pages
-
-# Push to GitHub
-git push origin gh-pages
-
-# Enable GitHub Pages in repository settings
-# Select gh-pages branch as source
-```
-
-**Your site will be live at**: `https://your-username.github.io/Web-Portfolio`
+**Your site will be live at**: `https://random-name-123.netlify.app`
 
 ### Deploy to Vercel
 
@@ -412,158 +412,205 @@ vercel
 # Follow the prompts
 ```
 
-### Custom Domain (Optional)
-
-1. Purchase a domain from:
-   - Namecheap
-   - GoDaddy
-   - Google Domains
-2. Configure DNS settings in Netlify/Vercel/GitHub Pages
-3. Add custom domain in your hosting platform settings
-
 ---
 
 ## 🌐 Browser Support
 
-| Browser | Version | Support |
-|---------|---------|---------|
-| Chrome | Latest | ✅ Full Support |
-| Firefox | Latest | ✅ Full Support |
-| Safari | Latest | ✅ Full Support |
-| Edge | Latest | ✅ Full Support |
-| Opera | Latest | ✅ Full Support |
+| Browser | Version | Support Status |
+|---------|---------|----------------|
+| Chrome | Latest | ✅ Fully Supported |
+| Firefox | Latest | ✅ Fully Supported |
+| Safari | Latest | ✅ Fully Supported |
+| Edge | Latest | ✅ Fully Supported |
+| Opera | Latest | ✅ Fully Supported |
 | IE 11 | - | ❌ Not Supported |
 
 ---
 
 ## 📱 Responsive Breakpoints
 
-```css
-/* Mobile devices */
-@media (max-width: 576px) { }
+The website is optimized for all screen sizes:
 
-/* Tablets */
+```css
+/* Desktop Large (1400px+) */
+@media (min-width: 1400px) { }
+
+/* Desktop (1200px - 1399px) */
+@media (max-width: 1199px) { }
+
+/* Laptop (992px - 1199px) */
+@media (max-width: 991px) { }
+
+/* Tablet Landscape (768px - 991px) */
 @media (max-width: 768px) { }
 
-/* Small laptops */
-@media (max-width: 992px) { }
+/* Tablet Portrait (617px - 767px) */
+@media (max-width: 617px) { }
 
-/* Large screens */
-@media (max-width: 1200px) { }
+/* Mobile Landscape (450px - 616px) */
+@media (max-width: 450px) { }
+
+/* Mobile Portrait (365px - 449px) */
+@media (max-width: 365px) { }
+
+/* Mobile Small (320px - 364px) */
+@media (max-width: 364px) { }
 ```
 
 ---
 
-## 🧪 Testing
+## 🎯 Certificate Carousel Features
 
-### Manual Testing Checklist
+### Navigation Methods
 
-- [ ] All links work correctly
-- [ ] Images load properly
-- [ ] Contact form submits successfully
-- [ ] Smooth scrolling functions
-- [ ] Animations play correctly
-- [ ] Responsive on mobile devices
-- [ ] Responsive on tablets
-- [ ] Works in all major browsers
-- [ ] Social media links open correctly
-- [ ] Download resume button works
+1. **Arrow Buttons**: Click left/right buttons to navigate
+2. **Keyboard**: Use ← and → arrow keys
+3. **Touch Swipe**: Swipe left/right on mobile devices
+4. **Click Slide**: Click on any slide to make it active
 
-### Performance Testing
+### Carousel Controls
 
-Use these tools to test your portfolio:
+```javascript
+// Previous slide
+handlePreviousClick()
 
-- **Google PageSpeed Insights**: [pagespeed.web.dev](https://pagespeed.web.dev/)
-- **GTmetrix**: [gtmetrix.com](https://gtmetrix.com/)
-- **WebPageTest**: [webpagetest.org](https://www.webpagetest.org/)
+// Next slide
+handleNextClick()
 
-### SEO Testing
+// Go to specific slide
+setCurrent(index)
+```
 
-- **Google Search Console**: Monitor search performance
-- **Mobile-Friendly Test**: Test mobile responsiveness
-- **Structured Data Testing Tool**: Validate schema markup
+### Adding New Certificates
+
+1. Add certificate image to `img/` folder
+2. Update `slides` array in `script.js`:
+
+```javascript
+const slides = [
+    // Existing certificates...
+    { 
+        src: "img/new-certificate.jpg", 
+        pdfPath: "img/new-certificate.pdf", 
+        title: "New Certificate Title", 
+        description: "Certificate description...", 
+        button: "View PDF" 
+    },
+];
+```
 
 ---
 
 ## 🔧 Troubleshooting
 
-### Common Issues
+### Common Issues & Solutions
 
-**Issue 1: Images Not Loading**
+#### Issue 1: Certificate Images Not Loading
 ```
-Solution: Check file paths and ensure images are in the correct directory
-```
-
-**Issue 2: Animations Not Working**
-```
-Solution: Verify JavaScript files are loaded correctly and check console for errors
+✅ Solution: 
+- Check file paths in script.js
+- Ensure images are in img/ folder
+- Verify image file names match exactly
 ```
 
-**Issue 3: Contact Form Not Sending**
+#### Issue 2: Carousel Buttons Not Visible
 ```
-Solution: Implement backend service (EmailJS, Formspree, or custom backend)
+✅ Solution: 
+- Check CSS controls positioning
+- Verify buttons are inside carousel-wrapper
+- Clear browser cache
 ```
 
-**Issue 4: Slow Loading**
+#### Issue 3: Animations Not Working
 ```
-Solution: Optimize images, minify CSS/JS, and enable caching
+✅ Solution: 
+- Verify ScrollReveal CDN is loaded
+- Check JavaScript console for errors
+- Ensure script.js is loaded last
 ```
+
+#### Issue 4: Responsive Issues on Mobile
+```
+✅ Solution: 
+- Clear browser cache
+- Check viewport meta tag in HTML
+- Test on actual devices, not just DevTools
+```
+
+#### Issue 5: Contact Form Not Working
+```
+✅ Solution: 
+- Form needs backend to function
+- Use services like: FormSpree, EmailJS, or Netlify Forms
+- Or implement custom backend with PHP/Node.js
+```
+
+---
+
+## 🧪 Testing Checklist
+
+- [ ] All navigation links work correctly
+- [ ] Certificate carousel navigates smoothly
+- [ ] Images load on all pages
+- [ ] Responsive on mobile (320px - 768px)
+- [ ] Responsive on tablet (768px - 991px)
+- [ ] Responsive on desktop (992px+)
+- [ ] Works in Chrome, Firefox, Safari, Edge
+- [ ] Smooth scrolling functions properly
+- [ ] Animations play correctly
+- [ ] Social media links open correctly
+- [ ] Project links work (external sites)
+- [ ] Certificate View PDF buttons work
+- [ ] Touch swipe works on mobile
+- [ ] Keyboard navigation works (arrows)
+
+---
+
+## 📊 Performance Optimization
+
+### Implemented Optimizations
+
+- ✅ Optimized CSS with minimal selectors
+- ✅ Efficient JavaScript with event delegation
+- ✅ Lazy loading for images
+- ✅ Minimal external dependencies
+- ✅ Compressed and minified code
+- ✅ Efficient animation using CSS transforms
+
+### Performance Testing
+
+Test your portfolio performance:
+
+- **PageSpeed Insights**: [pagespeed.web.dev](https://pagespeed.web.dev/)
+- **GTmetrix**: [gtmetrix.com](https://gtmetrix.com/)
+- **WebPageTest**: [webpagetest.org](https://www.webpagetest.org/)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
+Contributions are welcome! Feel free to:
 
-### How to Contribute
-
-1. **Fork the repository**
-   ```bash
-   Click "Fork" button on GitHub
-   ```
-
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-
-4. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-5. **Open a Pull Request**
-   - Go to your fork on GitHub
-   - Click "New Pull Request"
-   - Describe your changes
-
-### Contribution Guidelines
-
-- Follow existing code style
-- Test your changes thoroughly
-- Update documentation if needed
-- Add comments for complex code
-- Be respectful and constructive
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
-## 📝 To-Do List / Roadmap
+## 📝 Future Enhancements
 
 - [ ] Add dark/light theme toggle
 - [ ] Implement blog section
-- [ ] Add more animation effects
-- [ ] Create admin panel for easy content management
-- [ ] Add multi-language support
-- [ ] Integrate with CMS (Contentful, Strapi)
-- [ ] Add visitor analytics dashboard
-- [ ] Implement progressive web app (PWA) features
-- [ ] Add accessibility improvements (ARIA labels)
-- [ ] Create video portfolio section
+- [ ] Add loading animations
+- [ ] Create admin panel for content management
+- [ ] Add visitor counter
+- [ ] Implement contact form backend
+- [ ] Add project filtering system
+- [ ] Create downloadable resume/CV
+- [ ] Add testimonials section
+- [ ] Implement multi-language support
 
 ---
 
@@ -574,20 +621,26 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Kyubey-kub
+Copyright (c) 2024 Somprasong Wasuwid
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
-```
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-**What this means:**
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ---
 
@@ -595,12 +648,15 @@ copies of the Software...
 
 <div align="center">
 
-**Kyubey-kub**
+**Somprasong Wasuwid**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kyubey-kub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://imaginative-dusk-9f95ff.netlify.app/#home)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+*Computer Engineering Student*  
+*Rajamangala University of Technology Phra Nakhon*
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00FFFF?style=for-the-badge&logo=todoist&logoColor=black)](YOUR_PORTFOLIO_URL)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
 </div>
 
@@ -608,80 +664,61 @@ copies of the Software...
 
 ## 🙏 Acknowledgments
 
-### Inspiration & Resources
+### Resources & Inspiration
 
-- **Design Inspiration**:
-  - [Awwwards](https://www.awwwards.com/) - Award-winning web designs
-  - [Dribbble](https://dribbble.com/) - Creative portfolio designs
-  - [Behance](https://www.behance.net/) - Professional portfolios
+- **BoxIcons**: Beautiful icon library
+- **ScrollReveal**: Smooth scroll animations
+- **Typed.js**: Text typing animation effects
+- **Google Fonts**: Poppins font family
+- **CSS Animation.io**: Letter animation effects
 
-- **Code Resources**:
-  - [MDN Web Docs](https://developer.mozilla.org/) - Web development documentation
-  - [CSS-Tricks](https://css-tricks.com/) - CSS techniques and tutorials
-  - [W3Schools](https://www.w3schools.com/) - HTML, CSS, JavaScript tutorials
+### Learning Resources
 
-- **Tools & Libraries**:
-  - [Font Awesome](https://fontawesome.com/) - Icon library
-  - [Google Fonts](https://fonts.google.com/) - Web fonts
-  - [Unsplash](https://unsplash.com/) - Free high-quality images
-
-- **Community**:
-  - Stack Overflow community for problem-solving
-  - GitHub community for open-source inspiration
-  - Dev.to community for web development articles
+- **MDN Web Docs**: Web development documentation
+- **W3Schools**: HTML, CSS, JavaScript tutorials
+- **CSS-Tricks**: Advanced CSS techniques
+- **Stack Overflow**: Problem-solving community
 
 ### Special Thanks
 
-- To all open-source contributors who make web development accessible
-- To the web design community for continuous inspiration
+- To the open-source community for amazing tools and libraries
+- To web design communities for inspiration
 - To everyone who provided feedback and suggestions
+- To educational platforms providing free certificates
 
 ---
 
-## 📊 Project Stats
+## 💡 Tips for Your Portfolio
 
-![GitHub Stars](https://img.shields.io/github/stars/Kyubey-kub/Web-Portfolio?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/Kyubey-kub/Web-Portfolio?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/Kyubey-kub/Web-Portfolio)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Kyubey-kub/Web-Portfolio)
-
----
-
-## 💡 Tips for Success
-
-1. **Keep It Updated**: Regularly update your portfolio with new projects
-2. **Optimize Performance**: Compress images and minify code
+1. **Keep It Updated**: Regularly add new projects and certificates
+2. **Optimize Images**: Compress images for faster loading
 3. **Test Thoroughly**: Check on multiple devices and browsers
-4. **Get Feedback**: Ask friends or colleagues to review your portfolio
-5. **SEO Matters**: Optimize meta tags and content for search engines
-6. **Analytics**: Add Google Analytics to track visitors
+4. **Get Feedback**: Ask peers to review your portfolio
+5. **SEO Optimization**: Add proper meta tags and descriptions
+6. **Add Analytics**: Track visitors with Google Analytics
 7. **Stay Authentic**: Let your personality shine through
+8. **Professional Email**: Use a professional email address
+9. **Backup Regularly**: Keep backups of your portfolio
+10. **Network**: Share your portfolio on social media
 
 ---
 
-## 📞 Support
+## 📞 Support & Contact
 
 ### Need Help?
 
-If you encounter any issues or have questions:
+If you have questions or need assistance:
 
-1. **Check Existing Issues**: [GitHub Issues](https://github.com/Kyubey-kub/Web-Portfolio/issues)
-2. **Create New Issue**: Provide detailed information about the problem
-3. **Contact Directly**: [Email me](mailto:your-email@example.com)
+1. **Check Documentation**: Read through this README
+2. **Search Issues**: Look for similar issues on GitHub
+3. **Create Issue**: Open a new issue with details
+4. **Email Support**: Contact directly via email
 
-### Frequently Asked Questions
+### Contact Information
 
-**Q: Can I use this for commercial purposes?**
-A: Yes! This project is MIT licensed, so you can use it for any purpose.
-
-**Q: How do I add more sections?**
-A: Edit the `index.html` file and follow the existing structure for new sections.
-
-**Q: Can I remove the attribution?**
-A: While appreciated, attribution is not required under MIT license.
-
-**Q: How do I make the contact form work?**
-A: Integrate with services like EmailJS, Formspree, or build a custom backend.
+- **Email**: YOUR_EMAIL@example.com
+- **LinkedIn**: [Your LinkedIn Profile](#)
+- **GitHub**: [Your GitHub Profile](#)
 
 ---
 
@@ -689,16 +726,16 @@ A: Integrate with services like EmailJS, Formspree, or build a custom backend.
 
 ## ⭐ Show Your Support
 
-If you found this helpful, please consider giving it a star!
+If you found this project helpful, please consider giving it a star!
 
 **Thank you for visiting! Happy coding! 🚀**
 
-[![Star this repo](https://img.shields.io/github/stars/Kyubey-kub/Web-Portfolio?style=social)](https://github.com/Kyubey-kub/Web-Portfolio)
-
 ---
 
-**Made with ❤️ by [Kyubey-kub](https://github.com/Kyubey-kub)**
+**Made with ❤️ and ☕ by Somprasong Wasuwid**
 
-[⬆ Back to Top](#top)
+**© 2024 All Rights Reserved**
+
+[⬆ Back to Top](#-personal-portfolio-website---somprasong-wasuwid)
 
 </div>
