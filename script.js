@@ -124,6 +124,9 @@ const slides = [
     { src: "img/01.png", pdfPath: "img/01.png", title: "Basic Prompt Engineering", description: "Verified certificate from Mahidol University (CBTU) for successfully completing the Basic Prompt Engineering course with passing grade. Completed on October 5, 2025. Instructor: Tawesak Samanchuen, Ph.D.", button: "View PDF" },
     { src: "img/10.png", pdfPath: "img/10.png", title: "Generative AI ChatGPT Course", description: "Certificate from Kasetsart University for completing the Generative AI ChatGPT course, awarded to Somprasong Wasuwid on November 5, 2025.", button: "View PDF" },
     { src: "img/11.png", pdfPath: "img/11.png", title: "AI for All: From Basics to GenAI Practice", description: "NVIDIA Deep Learning Institute Certificate of Completion for successfully completing the AI for All: From Basics to GenAI Practice course, issued in October 2025.", button: "View PDF" },
+    { src: "img/CCNA.png", pdfPath: "img/CCNA.pdf", title: "CCNA: Introduction to Networks", description: "Cisco Networking Academy | Rajamangala University of Technology Phra Nakhon | Completed: November 2025", button: "View PDF" },
+    { src: "img/SQL.png", pdfPath: "img/SQL.pdf", title: "Introduction to SQL", description: "Certificate in SQL fundamentals covering core database concepts and query operations. This certification demonstrates proficiency in basic SQL syntax, data manipulation, table operations, and essential database management skills.", button: "View PDF"},
+    { src: "img/Cybersecurity.png", pdfPath: "img/Cybersecurity.pdf", title: "Introduction to Cybersecurity", description: "Received a certificate from Cisco Networking Academy for completing the Introduction to Cybersecurity course on December 12, 2025, which provides fundamental knowledge in cybersecurity.", button: "View PDF"},
 ];
 
 let current = 0;
