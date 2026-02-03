@@ -1,159 +1,355 @@
-# 🌐 Web Portfolio - Personal Portfolio Website
-
 <div align="center">
 
-![Portfolio Banner](https://via.placeholder.com/1200x300/667eea/ffffff?text=Professional+Portfolio+Website)
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=🌐%20Web%20Portfolio&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Personal%20Portfolio%20Website&descAlignY=55&descSize=20" width="100%"/>
 
-[![Live Demo](https://img.shields.io/badge/demo-online-success?style=for-the-badge&logo=netlify)](https://imaginative-dusk-9f95ff.netlify.app/#home)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/Kyubey-kub/Web-Portfolio)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+<!-- Animated Typing -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Showcase+Your+Skills+%26+Projects;Modern+%26+Responsive+Design;Sleek+%26+Professional+Portfolio" alt="Typing SVG" /></a>
 
-**A sleek and modern personal portfolio website to showcase your skills, projects, and achievements with style!**
+<!-- Badges Row 1 -->
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Responsive-38B2AC?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Responsive"/>
+</p>
 
-[🌟 Live Demo](https://imaginative-dusk-9f95ff.netlify.app/#home) • [📂 Repository](https://github.com/Kyubey-kub/Web-Portfolio) • [📧 Contact](mailto:your-email@example.com)
+<!-- Badges Row 2 -->
+<p>
+  <img src="https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=font-awesome&logoColor=white" alt="Font Awesome"/>
+  <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Fonts"/>
+  <img src="https://img.shields.io/badge/AOS_Animation-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="AOS"/>
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
+</p>
+
+<!-- Status Badges -->
+<p>
+  <img src="https://img.shields.io/badge/Status-Active-00C853?style=flat-square&logo=statuspage&logoColor=white" alt="Status"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="License"/>
+  <img src="https://img.shields.io/github/stars/Kyubey-kub/Web-Portfolio?style=flat-square&logo=github" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Kyubey-kub/Web-Portfolio?style=flat-square&logo=github" alt="Forks"/>
+  <img src="https://img.shields.io/github/last-commit/Kyubey-kub/Web-Portfolio?style=flat-square&logo=github" alt="Last Commit"/>
+</p>
+
+<!-- Quick Links -->
+<p>
+  <a href="https://imaginative-dusk-9f95ff.netlify.app/#home">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-667eea?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/Kyubey-kub/Web-Portfolio">
+    <img src="https://img.shields.io/badge/📂_Repository-GitHub-181717?style=for-the-badge&logo=github" alt="Repository"/>
+  </a>
+  <a href="mailto:somprasongwasuwid@gmail.com">
+    <img src="https://img.shields.io/badge/📧_Contact-Email_Me-EA4335?style=for-the-badge&logo=gmail" alt="Contact"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
-## 📑 Table of Contents
+<!-- Navigation -->
+<details open>
+<summary><h2>📑 Table of Contents</h2></summary>
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Demo](#-demo)
-- [Technologies Used](#-technologies-used)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Customization Guide](#-customization-guide)
-- [Deployment](#-deployment)
-- [Browser Support](#-browser-support)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
+| Section | Description |
+|---------|-------------|
+| [🎯 Overview](#-overview) | Project introduction and goals |
+| [✨ Features](#-features) | Complete feature breakdown |
+| [🎬 Demo](#-demo) | Live demo and screenshots |
+| [🛠 Tech Stack](#-technologies-used) | Technologies and tools used |
+| [🚀 Getting Started](#-getting-started) | Installation and setup guide |
+| [📁 Project Structure](#-project-structure) | Codebase organization |
+| [🎨 Customization](#-customization-guide) | How to personalize your portfolio |
+| [🚢 Deployment](#-deployment) | Deployment instructions |
+| [🌐 Browser Support](#-browser-support) | Supported browsers |
+| [🤝 Contributing](#-contributing) | How to contribute |
+| [👤 Author](#-author) | About the developer |
+
+</details>
 
 ---
 
 ## 🎯 Overview
 
-**Web Portfolio** is a beautifully crafted personal portfolio website designed to help professionals showcase their skills, projects, and achievements in an elegant and impactful way. Whether you're a developer, designer, photographer, or creative professional, this template provides everything you need to create a stunning online presence.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+</div>
 
-### Why Choose This Portfolio?
+**Web Portfolio** is a beautifully crafted **personal portfolio website** designed to help professionals showcase their skills, projects, and achievements in an elegant and impactful way. Whether you're a developer, designer, photographer, or creative professional, this template provides everything you need to create a **stunning online presence**.
 
-This project combines modern web design principles with practical functionality to deliver:
+### 💡 Why Choose This Portfolio?
 
-- **First Impression Matters**: Eye-catching hero section with smooth animations
-- **Professional Presentation**: Clean, minimalistic design that puts your work in the spotlight
-- **Easy to Use**: Simple setup process with clear documentation
-- **SEO Optimized**: Built with best practices for search engine visibility
-- **Fast Loading**: Optimized assets and code for lightning-fast performance
-- **Mobile-First**: Designed for all devices, ensuring perfect display everywhere
+<table>
+<tr>
+<td width="50%">
+
+#### 🎨 For Users
+- 🖼️ **Stunning Visuals** - Eye-catching design that impresses
+- 🔍 **Easy Navigation** - Smooth scrolling & intuitive layout
+- 📱 **Mobile-First** - Perfect on any device
+- ⚡ **Lightning Fast** - Optimized for performance
+
+</td>
+<td width="50%">
+
+#### 🔧 For Developers
+- 🏗️ **Clean Codebase** - Well-organized & maintainable
+- 🎨 **Easy Customization** - Quick to personalize
+- 🔒 **Best Practices** - SEO & accessibility built-in
+- 🚀 **Easy Deployment** - Ready for Netlify/Vercel
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+</div>
 
 ---
 
 ## ✨ Features
 
+<div align="center">
+
 ### 🎨 Design Features
 
-- **Modern & Clean UI**: Minimalistic design with focus on content
-- **Smooth Animations**: Subtle scroll animations and transitions
-- **Responsive Grid Layout**: Perfectly adapts to any screen size
-- **Custom Color Schemes**: Easy to customize color palette
-- **Typography Excellence**: Carefully selected fonts for readability
-- **Dark/Light Theme**: *(Optional feature you can add)*
+</div>
 
-### 📱 Responsive Design
+<table>
+<tr>
+<td width="33%" align="center">
 
-- **Mobile-First Approach**: Optimized for smartphones and tablets
-- **Tablet Ready**: Perfect display on iPad and similar devices
-- **Desktop Optimized**: Stunning presentation on large screens
-- **Cross-Browser Compatible**: Works seamlessly across all modern browsers
+### 🌐 Responsive
+<img src="https://img.icons8.com/fluency/96/responsive.png" width="64"/>
 
-### 🛠️ Sections Included
+Mobile-first design that adapts perfectly to all screen sizes
 
-1. **Hero Section**: Eye-catching introduction with your name and tagline
-2. **About Me**: Professional bio and personal introduction
-3. **Skills**: Visual representation of your technical abilities
-4. **Portfolio/Projects**: Showcase your best work with images and descriptions
-5. **Experience/Resume**: Timeline of your professional journey
-6. **Services**: What you offer to potential clients *(if applicable)*
-7. **Testimonials**: Client reviews and recommendations *(optional)*
-8. **Contact Form**: Easy way for visitors to reach you
-9. **Social Media Links**: Connect with visitors on various platforms
-10. **Footer**: Additional information and copyright notice
+</td>
+<td width="33%" align="center">
+
+### 🎭 Animations
+<img src="https://img.icons8.com/fluency/96/animation.png" width="64"/>
+
+Smooth scroll animations using **AOS** for enhanced UX
+
+</td>
+<td width="33%" align="center">
+
+### 🎨 Modern UI
+<img src="https://img.icons8.com/fluency/96/design.png" width="64"/>
+
+Clean, minimalistic design with focus on content
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
+
+### 🌙 Theme Ready
+<img src="https://img.icons8.com/fluency/96/sun.png" width="64"/>
+
+Easy to add dark/light theme toggle
+
+</td>
+<td width="33%" align="center">
+
+### 📱 Cross-Platform
+<img src="https://img.icons8.com/fluency/96/multiple-devices.png" width="64"/>
+
+Works seamlessly across all browsers
+
+</td>
+<td width="33%" align="center">
+
+### ⚡ Fast Loading
+<img src="https://img.icons8.com/fluency/96/speed.png" width="64"/>
+
+Optimized assets for lightning-fast performance
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 📑 Sections Included
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+| Section | Description |
+|---------|-------------|
+| 🏠 **Hero Section** | Eye-catching intro with name & tagline |
+| 👤 **About Me** | Professional bio & introduction |
+| 💼 **Skills** | Visual progress bars for abilities |
+| 🖼️ **Portfolio** | Project showcase with images |
+| 📋 **Experience** | Professional timeline |
+
+</td>
+<td width="50%">
+
+| Section | Description |
+|---------|-------------|
+| 🛠️ **Services** | What you offer to clients |
+| ⭐ **Testimonials** | Client reviews & recommendations |
+| 📧 **Contact Form** | Easy way for visitors to reach you |
+| 🔗 **Social Links** | Connect on various platforms |
+| 📄 **Footer** | Copyright & additional info |
+
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 ### ⚡ Interactive Elements
 
-- Smooth scrolling navigation
-- Hover effects on buttons and cards
-- Animated skill bars or progress indicators
-- Lightbox for project images
-- Form validation for contact section
-- Back-to-top button
-- Loading animations
+<img src="https://img.shields.io/badge/Smooth_Scrolling-Navigation-green?style=flat-square"/>
+<img src="https://img.shields.io/badge/Hover_Effects-Buttons_&_Cards-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Animated-Skill_Bars-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/Form-Validation-red?style=flat-square"/>
+<img src="https://img.shields.io/badge/Lightbox-Project_Images-purple?style=flat-square"/>
+<img src="https://img.shields.io/badge/Back_to_Top-Button-yellow?style=flat-square"/>
+
+</div>
 
 ---
 
 ## 🎬 Demo
 
-### 🌐 Live Website
+<div align="center">
 
-Visit the live portfolio: **[imaginative-dusk-9f95ff.netlify.app](https://imaginative-dusk-9f95ff.netlify.app/#home)**
+### 🌐 Live Application
 
-### 📸 Preview
+<a href="https://imaginative-dusk-9f95ff.netlify.app/#home">
+  <img src="https://img.shields.io/badge/🚀_LAUNCH_DEMO-Click_Here-667eea?style=for-the-badge&labelColor=1a1a2e" alt="Launch Demo"/>
+</a>
 
-> **Note**: Add your actual screenshots here
+</div>
 
-```
-[Home Page Preview]
-[About Section Preview]
-[Portfolio Section Preview]
-[Contact Section Preview]
-```
+### 📸 Screenshots Gallery
+
+<details>
+<summary><b>🏠 Home & Hero Section</b> (Click to expand)</summary>
+<br/>
+
+| Hero Section | Navigation |
+|:------------:|:----------:|
+| ![Hero](https://via.placeholder.com/400x250/667eea/ffffff?text=Hero+Section) | ![Nav](https://via.placeholder.com/400x250/764ba2/ffffff?text=Navigation) |
+
+</details>
+
+<details>
+<summary><b>👤 About & Skills</b> (Click to expand)</summary>
+<br/>
+
+| About Me | Skills |
+|:--------:|:------:|
+| ![About](https://via.placeholder.com/400x250/667eea/ffffff?text=About+Section) | ![Skills](https://via.placeholder.com/400x250/764ba2/ffffff?text=Skills+Section) |
+
+</details>
+
+<details>
+<summary><b>🖼️ Portfolio & Projects</b> (Click to expand)</summary>
+<br/>
+
+| Portfolio Grid | Project Details |
+|:--------------:|:---------------:|
+| ![Portfolio](https://via.placeholder.com/400x250/667eea/ffffff?text=Portfolio+Grid) | ![Project](https://via.placeholder.com/400x250/764ba2/ffffff?text=Project+Details) |
+
+</details>
+
+<details>
+<summary><b>📧 Contact & Footer</b> (Click to expand)</summary>
+<br/>
+
+| Contact Form | Footer |
+|:------------:|:------:|
+| ![Contact](https://via.placeholder.com/400x250/667eea/ffffff?text=Contact+Form) | ![Footer](https://via.placeholder.com/400x250/764ba2/ffffff?text=Footer) |
+
+</details>
 
 ---
 
 ## 🛠 Technologies Used
 
-### Core Technologies
+<div align="center">
 
-| Technology | Purpose | Documentation |
-|-----------|---------|---------------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Structure & Content | [Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling & Layout | [Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Interactivity | [Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+### 🎨 Core Technologies
 
-### Libraries & Frameworks
+</div>
 
-- **Font Awesome**: For beautiful icons
-- **Google Fonts**: Custom typography
-- **AOS (Animate On Scroll)**: Scroll animations *(if used)*
-- **Typed.js**: Text animation effects *(if used)*
-- **EmailJS**: Contact form functionality *(if used)*
-- **Particles.js**: Background effects *(if used)*
+```mermaid
+graph LR
+    A[HTML5] --> B[CSS3]
+    B --> C[JavaScript]
+    C --> D[Font Awesome]
+    D --> E[Google Fonts]
+    E --> F[AOS Library]
+```
 
-### Development Tools
+| Technology | Purpose | Links |
+|:----------:|:--------|:-----:|
+| <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> | Structure & Semantics | [Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> | Styling & Animations | [Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> | Interactivity & Logic | [Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| <img src="https://img.shields.io/badge/-Font_Awesome-528DD7?style=flat-square&logo=font-awesome&logoColor=white"/> | Icon Library | [Docs](https://fontawesome.com/) |
+| <img src="https://img.shields.io/badge/-Google_Fonts-4285F4?style=flat-square&logo=google&logoColor=white"/> | Typography | [Docs](https://fonts.google.com/) |
+| <img src="https://img.shields.io/badge/-AOS-0055FF?style=flat-square&logo=framer&logoColor=white"/> | Scroll Animations | [Docs](https://michalsnik.github.io/aos/) |
 
-- **VS Code**: Code editor
-- **Git**: Version control
-- **Netlify**: Deployment platform
-- **Chrome DevTools**: Testing and debugging
+<div align="center">
+
+### 🛠️ Development & Deployment
+
+</div>
+
+| Tool | Purpose |
+|:----:|:--------|
+| <img src="https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/> | Code Editor |
+| <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white"/> | Version Control |
+| <img src="https://img.shields.io/badge/-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white"/> | Deployment Platform |
+| <img src="https://img.shields.io/badge/-Chrome_DevTools-4285F4?style=flat-square&logo=google-chrome&logoColor=white"/> | Testing & Debugging |
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
-Before you begin, ensure you have:
+<table>
+<tr>
+<td>
 
-- ✅ A modern web browser (Chrome, Firefox, Safari, Edge)
-- ✅ A code editor (VS Code recommended)
-- ✅ Basic knowledge of HTML, CSS, and JavaScript
-- ✅ Git installed on your computer (optional)
+```bash
+# Required software
+✅ Modern Web Browser
+✅ Code Editor (VS Code)
+✅ Git (optional)
+✅ Basic HTML/CSS/JS knowledge
+```
 
-### Installation
+</td>
+<td>
 
-#### Method 1: Clone the Repository
+| Software | Download Link |
+|----------|---------------|
+| VS Code | [code.visualstudio.com](https://code.visualstudio.com/) |
+| Git | [git-scm.com](https://git-scm.com/) |
+| Chrome | [google.com/chrome](https://www.google.com/chrome/) |
+
+</td>
+</tr>
+</table>
+
+### 📥 Installation
+
+<details open>
+<summary><b>Step 1: Clone Repository</b></summary>
 
 ```bash
 # Clone the repository
@@ -166,92 +362,91 @@ cd Web-Portfolio
 code .
 ```
 
-#### Method 2: Download ZIP
+</details>
 
-1. Click the "Code" button on GitHub
-2. Select "Download ZIP"
-3. Extract the ZIP file
-4. Open the folder in your code editor
+<details>
+<summary><b>Step 2: Run Locally</b></summary>
 
-### Usage
+**Option 1: VS Code Live Server (Recommended)**
+```bash
+1. Install "Live Server" extension in VS Code
+2. Right-click on index.html
+3. Select "Open with Live Server"
+```
 
-#### Running Locally
-
-**Option 1: Simple HTTP Server (Python)**
-
+**Option 2: Python HTTP Server**
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Python 2
-python -m SimpleHTTPServer 8000
+# Then visit http://localhost:8000
 ```
 
-**Option 2: VS Code Live Server**
+**Option 3: Direct Open**
+```bash
+# Simply double-click index.html
+# ⚠️ Some features may not work
+```
 
-1. Install "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
+</details>
 
-**Option 3: Open Directly**
+<details>
+<summary><b>Step 3: Customize & Deploy</b></summary>
 
-- Simply double-click `index.html` to open in your browser
-- ⚠️ Some features may not work without a server
+```bash
+# 1. Edit content in index.html
+# 2. Modify styles in css/style.css
+# 3. Update scripts in js/main.js
+# 4. Replace images in images/ folder
+# 5. Deploy to Netlify/Vercel/GitHub Pages
+```
 
-#### Access the Website
-
-Open your browser and navigate to:
-- `http://localhost:8000` (if using Python server)
-- `http://127.0.0.1:5500` (if using Live Server)
-- Or the file path if opened directly
+</details>
 
 ---
 
 ## 📁 Project Structure
 
+<details>
+<summary><b>📂 Click to view full project structure</b></summary>
+
 ```
-Web-Portfolio/
+📦 Web-Portfolio
 │
-├── index.html                 # Main HTML file
-├── css/
-│   ├── style.css             # Main stylesheet
-│   ├── responsive.css        # Media queries for responsive design
-│   └── animations.css        # Animation styles (if separate)
+├── 📄 index.html                 # Main HTML file
 │
-├── js/
-│   ├── main.js               # Main JavaScript file
-│   ├── animations.js         # Animation scripts
-│   └── form-handler.js       # Contact form logic
+├── 📂 css/
+│   ├── style.css                # Main stylesheet
+│   ├── responsive.css           # Media queries
+│   └── animations.css           # Animation styles
 │
-├── images/
-│   ├── profile/              # Profile pictures
-│   ├── projects/             # Project screenshots
-│   ├── skills/               # Skill icons
-│   └── background/           # Background images
+├── 📂 js/
+│   ├── main.js                  # Main JavaScript
+│   ├── animations.js            # Animation scripts
+│   └── form-handler.js          # Contact form logic
 │
-├── assets/
-│   ├── fonts/                # Custom fonts (if any)
-│   ├── icons/                # Icon files
-│   └── documents/            # Resume/CV PDF
+├── 📂 images/
+│   ├── 📂 profile/              # Profile pictures
+│   ├── 📂 projects/             # Project screenshots
+│   ├── 📂 skills/               # Skill icons
+│   └── 📂 background/           # Background images
 │
-├── lib/                      # External libraries (if self-hosted)
+├── 📂 assets/
+│   ├── 📂 fonts/                # Custom fonts
+│   ├── 📂 icons/                # Icon files
+│   └── 📂 documents/            # Resume/CV PDF
+│
+├── 📂 lib/                      # External libraries
 │   ├── fontawesome/
 │   ├── aos/
 │   └── typed/
 │
-├── .gitignore                # Git ignore file
-├── README.md                 # This file
-└── LICENSE                   # MIT License
-
+├── 📄 .gitignore                # Git ignore file
+├── 📄 README.md                 # Documentation
+└── 📄 LICENSE                   # MIT License
 ```
 
-### Key Files Explained
-
-- **`index.html`**: Main HTML file containing all sections
-- **`css/style.css`**: Primary stylesheet with all design rules
-- **`css/responsive.css`**: Media queries for different screen sizes
-- **`js/main.js`**: JavaScript for interactivity and animations
-- **`images/`**: All image assets for the portfolio
+</details>
 
 ---
 
@@ -259,7 +454,7 @@ Web-Portfolio/
 
 ### 1. Personal Information
 
-**Edit `index.html`** to update:
+**Edit `index.html`:**
 
 ```html
 <!-- Hero Section -->
@@ -268,124 +463,93 @@ Web-Portfolio/
 
 <!-- About Section -->
 <p>Your bio and description...</p>
-
-<!-- Contact Information -->
-<a href="mailto:your-email@example.com">your-email@example.com</a>
-<a href="tel:+1234567890">+1 (234) 567-890</a>
 ```
 
 ### 2. Colors & Theme
 
-**Edit `css/style.css`** to customize colors:
+**Edit `css/style.css`:**
 
 ```css
 :root {
   /* Primary Colors */
-  --primary-color: #667eea;      /* Main brand color */
-  --secondary-color: #764ba2;    /* Accent color */
+  --primary-color: #667eea;
+  --secondary-color: #764ba2;
   
   /* Background Colors */
-  --bg-color: #ffffff;           /* Main background */
-  --section-bg: #f8f9fa;         /* Section background */
+  --bg-color: #ffffff;
+  --section-bg: #f8f9fa;
   
   /* Text Colors */
-  --text-primary: #2d3748;       /* Main text */
-  --text-secondary: #718096;     /* Secondary text */
-  
-  /* Other Colors */
-  --border-color: #e2e8f0;
-  --shadow-color: rgba(0,0,0,0.1);
+  --text-primary: #2d3748;
+  --text-secondary: #718096;
 }
 ```
 
-### 3. Adding Your Projects
-
-**In `index.html`, add project cards:**
+### 3. Adding Projects
 
 ```html
 <div class="project-card">
-  <img src="images/projects/project-name.jpg" alt="Project Name">
+  <img src="images/projects/project.jpg" alt="Project">
   <h3>Project Title</h3>
-  <p>Project description...</p>
+  <p>Description...</p>
   <div class="project-links">
-    <a href="https://project-demo.com" target="_blank">Live Demo</a>
-    <a href="https://github.com/username/repo" target="_blank">GitHub</a>
+    <a href="#">Live Demo</a>
+    <a href="#">GitHub</a>
   </div>
 </div>
 ```
 
-### 4. Updating Skills
-
-**Edit the skills section:**
-
-```html
-<div class="skill">
-  <div class="skill-name">HTML/CSS</div>
-  <div class="skill-bar">
-    <div class="skill-progress" style="width: 90%"></div>
-  </div>
-</div>
-```
-
-### 5. Social Media Links
-
-**Update social media icons:**
+### 4. Social Links
 
 ```html
 <div class="social-links">
-  <a href="https://github.com/your-username" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://linkedin.com/in/your-profile" target="_blank">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://twitter.com/your-handle" target="_blank">
-    <i class="fab fa-twitter"></i>
-  </a>
+  <a href="https://github.com/username"><i class="fab fa-github"></i></a>
+  <a href="https://linkedin.com/in/profile"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com/handle"><i class="fab fa-twitter"></i></a>
 </div>
-```
-
-### 6. Resume/CV
-
-Place your PDF resume in `assets/documents/` and link it:
-
-```html
-<a href="assets/documents/your-resume.pdf" download class="btn-download">
-  Download Resume
-</a>
 ```
 
 ---
 
 ## 🚢 Deployment
 
-### Deploy to Netlify (Recommended)
+<div align="center">
 
-#### Method 1: Drag & Drop
+### Deployment Options
 
-1. Go to [Netlify](https://www.netlify.com/)
-2. Sign up or log in
-3. Drag your project folder to the deploy zone
-4. Your site is live! 🎉
-
-#### Method 2: GitHub Integration
-
-```bash
-# Push to GitHub first
-git add .
-git commit -m "Initial commit"
-git push origin main
-
-# Then on Netlify:
-1. Click "New site from Git"
-2. Connect to GitHub
-3. Select your repository
-4. Click "Deploy site"
+```mermaid
+graph TB
+    subgraph "Option 1"
+        A[Netlify] --> B[Drag & Drop]
+    end
+    subgraph "Option 2"
+        C[GitHub Pages] --> D[Free Hosting]
+    end
+    subgraph "Option 3"
+        E[Vercel] --> F[Auto Deploy]
+    end
 ```
 
-**Your site will be live at**: `https://your-site-name.netlify.app`
+</div>
 
-### Deploy to GitHub Pages
+### 🌐 Deploy to Netlify (Recommended)
+
+<details open>
+<summary><b>Drag & Drop Method</b></summary>
+
+```bash
+1. Go to netlify.com
+2. Sign up / Log in
+3. Drag your project folder to deploy zone
+4. Your site is live! 🎉
+```
+
+</details>
+
+### 📂 Deploy to GitHub Pages
+
+<details>
+<summary><b>GitHub Pages Setup</b></summary>
 
 ```bash
 # Create gh-pages branch
@@ -394,13 +558,17 @@ git checkout -b gh-pages
 # Push to GitHub
 git push origin gh-pages
 
-# Enable GitHub Pages in repository settings
-# Select gh-pages branch as source
+# Enable in repo Settings > Pages
 ```
 
-**Your site will be live at**: `https://your-username.github.io/Web-Portfolio`
+**Your site:** `https://username.github.io/Web-Portfolio`
 
-### Deploy to Vercel
+</details>
+
+### ⚡ Deploy to Vercel
+
+<details>
+<summary><b>Vercel CLI</b></summary>
 
 ```bash
 # Install Vercel CLI
@@ -409,30 +577,31 @@ npm install -g vercel
 # Deploy
 vercel
 
-# Follow the prompts
+# Follow prompts
 ```
 
-### Custom Domain (Optional)
+</details>
 
-1. Purchase a domain from:
-   - Namecheap
-   - GoDaddy
-   - Google Domains
-2. Configure DNS settings in Netlify/Vercel/GitHub Pages
-3. Add custom domain in your hosting platform settings
+### 💰 Cost Estimation
+
+| Platform | Cost | Features |
+|:--------:|:----:|:---------|
+| Netlify Free | $0/mo | Custom domain, SSL, 100GB bandwidth |
+| GitHub Pages | $0/mo | Free hosting, custom domain |
+| Vercel Free | $0/mo | Serverless, auto deploy |
 
 ---
 
 ## 🌐 Browser Support
 
 | Browser | Version | Support |
-|---------|---------|---------|
-| Chrome | Latest | ✅ Full Support |
-| Firefox | Latest | ✅ Full Support |
-| Safari | Latest | ✅ Full Support |
-| Edge | Latest | ✅ Full Support |
-| Opera | Latest | ✅ Full Support |
-| IE 11 | - | ❌ Not Supported |
+|:-------:|:-------:|:-------:|
+| <img src="https://img.shields.io/badge/-Chrome-4285F4?style=flat-square&logo=google-chrome&logoColor=white" height="20"/> | Latest | ✅ Full |
+| <img src="https://img.shields.io/badge/-Firefox-FF7139?style=flat-square&logo=firefox&logoColor=white" height="20"/> | Latest | ✅ Full |
+| <img src="https://img.shields.io/badge/-Safari-000000?style=flat-square&logo=safari&logoColor=white" height="20"/> | Latest | ✅ Full |
+| <img src="https://img.shields.io/badge/-Edge-0078D7?style=flat-square&logo=microsoft-edge&logoColor=white" height="20"/> | Latest | ✅ Full |
+| <img src="https://img.shields.io/badge/-Opera-FF1B2D?style=flat-square&logo=opera&logoColor=white" height="20"/> | Latest | ✅ Full |
+| <img src="https://img.shields.io/badge/-IE_11-0076D6?style=flat-square&logo=internet-explorer&logoColor=white" height="20"/> | 11 | ❌ None |
 
 ---
 
@@ -454,116 +623,49 @@ vercel
 
 ---
 
-## 🧪 Testing
-
-### Manual Testing Checklist
-
-- [ ] All links work correctly
-- [ ] Images load properly
-- [ ] Contact form submits successfully
-- [ ] Smooth scrolling functions
-- [ ] Animations play correctly
-- [ ] Responsive on mobile devices
-- [ ] Responsive on tablets
-- [ ] Works in all major browsers
-- [ ] Social media links open correctly
-- [ ] Download resume button works
-
-### Performance Testing
-
-Use these tools to test your portfolio:
-
-- **Google PageSpeed Insights**: [pagespeed.web.dev](https://pagespeed.web.dev/)
-- **GTmetrix**: [gtmetrix.com](https://gtmetrix.com/)
-- **WebPageTest**: [webpagetest.org](https://www.webpagetest.org/)
-
-### SEO Testing
-
-- **Google Search Console**: Monitor search performance
-- **Mobile-Friendly Test**: Test mobile responsiveness
-- **Structured Data Testing Tool**: Validate schema markup
-
----
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-**Issue 1: Images Not Loading**
-```
-Solution: Check file paths and ensure images are in the correct directory
-```
-
-**Issue 2: Animations Not Working**
-```
-Solution: Verify JavaScript files are loaded correctly and check console for errors
-```
-
-**Issue 3: Contact Form Not Sending**
-```
-Solution: Implement backend service (EmailJS, Formspree, or custom backend)
-```
-
-**Issue 4: Slow Loading**
-```
-Solution: Optimize images, minify CSS/JS, and enable caching
-```
-
----
-
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
+<div align="center">
 
-### How to Contribute
+We welcome contributions! 🎉
 
-1. **Fork the repository**
-   ```bash
-   Click "Fork" button on GitHub
-   ```
+</div>
 
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
+```bash
+# 1. Fork & Clone
+git clone https://github.com/YOUR_USERNAME/Web-Portfolio.git
 
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
+# 2. Create Branch
+git checkout -b feature/AmazingFeature
 
-4. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
+# 3. Make Changes & Commit
+git commit -m 'feat: Add AmazingFeature'
 
-5. **Open a Pull Request**
-   - Go to your fork on GitHub
-   - Click "New Pull Request"
-   - Describe your changes
+# 4. Push & Create PR
+git push origin feature/AmazingFeature
+```
 
-### Contribution Guidelines
+### Commit Message Convention
 
-- Follow existing code style
-- Test your changes thoroughly
-- Update documentation if needed
-- Add comments for complex code
-- Be respectful and constructive
+| Type | Description |
+|:----:|:------------|
+| `feat` | New feature |
+| `fix` | Bug fix |
+| `docs` | Documentation |
+| `style` | Code style |
+| `refactor` | Code refactoring |
 
 ---
 
-## 📝 To-Do List / Roadmap
+## 📝 Roadmap
 
-- [ ] Add dark/light theme toggle
-- [ ] Implement blog section
-- [ ] Add more animation effects
-- [ ] Create admin panel for easy content management
-- [ ] Add multi-language support
-- [ ] Integrate with CMS (Contentful, Strapi)
-- [ ] Add visitor analytics dashboard
-- [ ] Implement progressive web app (PWA) features
-- [ ] Add accessibility improvements (ARIA labels)
-- [ ] Create video portfolio section
+- [ ] 🌙 Add dark/light theme toggle
+- [ ] 📝 Add blog section
+- [ ] 🎬 More animation effects
+- [ ] 🌍 Multi-language support
+- [ ] ♿ Accessibility improvements
+- [ ] 📊 Add visitor analytics
+- [ ] 🎥 Video portfolio section
 
 ---
 
@@ -571,36 +673,31 @@ Contributions are welcome! Here's how you can help:
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-```
-MIT License
-
-Copyright (c) 2024 Kyubey-kub
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
-```
-
-**What this means:**
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
-
 ---
 
 ## 👤 Author
 
 <div align="center">
 
-**Kyubey-kub**
+<img src="https://github.com/Kyubey-kub.png" width="150" style="border-radius: 50%;"/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kyubey-kub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://imaginative-dusk-9f95ff.netlify.app/#home)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+### **Somprasong Wasuwid**
+*Full Stack Developer*
+
+<p>
+  <a href="https://github.com/Kyubey-kub">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/somprasong-wasuwid-271b64350/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://imaginative-dusk-9f95ff.netlify.app/#home">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white"/>
+  </a>
+  <a href="mailto:somprasongwasuwid@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 </div>
 
@@ -608,97 +705,34 @@ copies of the Software...
 
 ## 🙏 Acknowledgments
 
-### Inspiration & Resources
+<div align="center">
 
-- **Design Inspiration**:
-  - [Awwwards](https://www.awwwards.com/) - Award-winning web designs
-  - [Dribbble](https://dribbble.com/) - Creative portfolio designs
-  - [Behance](https://www.behance.net/) - Professional portfolios
+| Resource | Purpose |
+|:--------:|:--------|
+| <img src="https://img.shields.io/badge/-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" height="25"/> | Deployment |
+| <img src="https://img.shields.io/badge/-Font_Awesome-528DD7?style=flat-square&logo=font-awesome&logoColor=white" height="25"/> | Icons |
+| <img src="https://img.shields.io/badge/-Google_Fonts-4285F4?style=flat-square&logo=google&logoColor=white" height="25"/> | Typography |
+| <img src="https://img.shields.io/badge/-AOS-0055FF?style=flat-square&logo=framer&logoColor=white" height="25"/> | Animations |
+| <img src="https://img.shields.io/badge/-Unsplash-000000?style=flat-square&logo=unsplash&logoColor=white" height="25"/> | Free Images |
 
-- **Code Resources**:
-  - [MDN Web Docs](https://developer.mozilla.org/) - Web development documentation
-  - [CSS-Tricks](https://css-tricks.com/) - CSS techniques and tutorials
-  - [W3Schools](https://www.w3schools.com/) - HTML, CSS, JavaScript tutorials
-
-- **Tools & Libraries**:
-  - [Font Awesome](https://fontawesome.com/) - Icon library
-  - [Google Fonts](https://fonts.google.com/) - Web fonts
-  - [Unsplash](https://unsplash.com/) - Free high-quality images
-
-- **Community**:
-  - Stack Overflow community for problem-solving
-  - GitHub community for open-source inspiration
-  - Dev.to community for web development articles
-
-### Special Thanks
-
-- To all open-source contributors who make web development accessible
-- To the web design community for continuous inspiration
-- To everyone who provided feedback and suggestions
-
----
-
-## 📊 Project Stats
-
-![GitHub Stars](https://img.shields.io/github/stars/Kyubey-kub/Web-Portfolio?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/Kyubey-kub/Web-Portfolio?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/Kyubey-kub/Web-Portfolio)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Kyubey-kub/Web-Portfolio)
-
----
-
-## 💡 Tips for Success
-
-1. **Keep It Updated**: Regularly update your portfolio with new projects
-2. **Optimize Performance**: Compress images and minify code
-3. **Test Thoroughly**: Check on multiple devices and browsers
-4. **Get Feedback**: Ask friends or colleagues to review your portfolio
-5. **SEO Matters**: Optimize meta tags and content for search engines
-6. **Analytics**: Add Google Analytics to track visitors
-7. **Stay Authentic**: Let your personality shine through
-
----
-
-## 📞 Support
-
-### Need Help?
-
-If you encounter any issues or have questions:
-
-1. **Check Existing Issues**: [GitHub Issues](https://github.com/Kyubey-kub/Web-Portfolio/issues)
-2. **Create New Issue**: Provide detailed information about the problem
-3. **Contact Directly**: [Email me](mailto:your-email@example.com)
-
-### Frequently Asked Questions
-
-**Q: Can I use this for commercial purposes?**
-A: Yes! This project is MIT licensed, so you can use it for any purpose.
-
-**Q: How do I add more sections?**
-A: Edit the `index.html` file and follow the existing structure for new sections.
-
-**Q: Can I remove the attribution?**
-A: While appreciated, attribution is not required under MIT license.
-
-**Q: How do I make the contact form work?**
-A: Integrate with services like EmailJS, Formspree, or build a custom backend.
+</div>
 
 ---
 
 <div align="center">
 
-## ⭐ Show Your Support
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer" width="100%"/>
 
-If you found this helpful, please consider giving it a star!
+**⭐ If you found this project helpful, please give it a star!**
 
-**Thank you for visiting! Happy coding! 🚀**
+**💖 Thank you for visiting!**
 
-[![Star this repo](https://img.shields.io/github/stars/Kyubey-kub/Web-Portfolio?style=social)](https://github.com/Kyubey-kub/Web-Portfolio)
+Made with ❤️ by [Kyubey-kub](https://github.com/Kyubey-kub)
 
----
+**Last Updated:** February 2026
 
-**Made with ❤️ by [Kyubey-kub](https://github.com/Kyubey-kub)**
-
-[⬆ Back to Top](#top)
+<a href="#top">
+  <img src="https://img.shields.io/badge/⬆_Back_to_Top-667eea?style=for-the-badge" alt="Back to Top"/>
+</a>
 
 </div>
