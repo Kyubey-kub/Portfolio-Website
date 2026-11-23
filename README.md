@@ -226,7 +226,7 @@ Optimized assets for lightning-fast performance
 
 ### 🌐 Live Application
 
-<a href="https://imaginative-dusk-9f95ff.netlify.app/#home">
+<a href="https://somprasong-wasuwid.netlify.app/">
   <img src="https://img.shields.io/badge/🚀_LAUNCH_DEMO-Click_Here-667eea?style=for-the-badge&labelColor=1a1a2e" alt="Launch Demo"/>
 </a>
 
@@ -691,7 +691,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
   <a href="https://www.linkedin.com/in/somprasong-wasuwid-271b64350/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://imaginative-dusk-9f95ff.netlify.app/#home">
+  <a href="https://somprasong-wasuwid.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white"/>
   </a>
   <a href="mailto:somprasongwasuwid@gmail.com">
