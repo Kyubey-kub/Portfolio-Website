@@ -33,31 +33,25 @@ window.onscroll = () => {
 };
 
 //scroll reveal
-ScrollReveal({
-    reset: true,
-    distance: '80px',
-    duration: 2000,
-    delay: 200
-});
+if (window.ScrollReveal) {
+    ScrollReveal({
+        reset: true,
+        distance: '80px',
+        duration: 2000,
+        delay: 200
+    });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+    ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+    ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+    ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+    ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+}
 
 // typed js
-const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Website Developer', 'Prompt Engineering', 'Backend Website Developer', 'Fullstack Website Developer', 'Vibe Website Developer'],
+if (window.Typed) new Typed('.multiple-text', {
+    strings: ['Android Developer', 'Full-stack Developer', 'Robotics Developer'],
     typeSpeed: 90,
     backSpeed: 90,
-    backDelay: 180,
-    loop: true
-});
-
-const typed2 = new Typed('.multiple-text2', {
-    strings: ['Download CV'],
-    typeSpeed: 180,
-    backSpeed: 99999999,
     backDelay: 180,
     loop: true
 });
@@ -120,6 +114,8 @@ function getRandomInt(min, max) {
 // ===============================================
 
 const slides = [
+    { src: "img/credentials/claude-code-in-action.webp", pdfPath: "documents/claude-code-in-action.pdf", title: "Claude Code in Action", description: "Completed Anthropic’s course on using Claude Code in software development.", button: "View PDF" },
+    { src: "img/credentials/claude-platform-101.webp", pdfPath: "documents/claude-platform-101.pdf", title: "Claude Platform 101", description: "Completed Anthropic’s introductory course on the Claude developer platform.", button: "View PDF" },
     { src: "img/00.jpg", pdfPath: "img/00.jpg", title: "Gemini Certified Educator", description: "Certificate from Google for Education, awarded for demonstrating the knowledge, skills, and basic competencies needed to use Google AI in education. Issued on 16/09/2025, valid through 15/09/2028.", button: "View PDF" },
     { src: "img/01.png", pdfPath: "img/01.png", title: "Basic Prompt Engineering", description: "Verified certificate from Mahidol University (CBTU) for successfully completing the Basic Prompt Engineering course with passing grade. Completed on October 5, 2025. Instructor: Tawesak Samanchuen, Ph.D.", button: "View PDF" },
     { src: "img/10.png", pdfPath: "img/10.png", title: "Generative AI ChatGPT Course", description: "Certificate from Kasetsart University for completing the Generative AI ChatGPT course, awarded to Somprasong Wasuwid on November 5, 2025.", button: "View PDF" },
@@ -127,6 +123,7 @@ const slides = [
     { src: "img/CCNA.png", pdfPath: "img/CCNA.pdf", title: "CCNA: Introduction to Networks", description: "Cisco Networking Academy | Rajamangala University of Technology Phra Nakhon | Completed: November 2025", button: "View PDF" },
     { src: "img/SQL.png", pdfPath: "img/SQL.pdf", title: "Introduction to SQL", description: "Certificate in SQL fundamentals covering core database concepts and query operations. This certification demonstrates proficiency in basic SQL syntax, data manipulation, table operations, and essential database management skills.", button: "View PDF"},
     { src: "img/Cybersecurity.png", pdfPath: "img/Cybersecurity.pdf", title: "Introduction to Cybersecurity", description: "Received a certificate from Cisco Networking Academy for completing the Introduction to Cybersecurity course on December 12, 2025, which provides fundamental knowledge in cybersecurity.", button: "View PDF"},
+    { src: "img/API Test.png", pdfPath: "img/API Test.pdf", title: "API Testing Path", description: "Received a certificate from Postman Academy for completing the API Testing Path on February 24, 2026, which covers fundamental knowledge in API testing, including designing, sending, and automating API requests using Postman.", button: "View PDF"},
 ];
 
 let current = 0;
@@ -246,7 +243,7 @@ function initCarousel() {
     document.querySelector('.control.next').addEventListener('click', handleNextClick);
 
     // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
+    wrapper.addEventListener('keydown', (e) => {
         if (e.key === 'ArrowLeft') handlePreviousClick();
         if (e.key === 'ArrowRight') handleNextClick();
     });
@@ -257,3 +254,52 @@ function initCarousel() {
 
 // Initialize carousel when DOM is ready
 document.addEventListener('DOMContentLoaded', initCarousel);
+// Keep both photos in a story together. Without JavaScript all stories stay visible.
+const gallerySwitch = document.querySelector('.gallery-switch');
+const stories = [...document.querySelectorAll('.experience-group')];
+function selectStory(index) {
+    stories.forEach((story, i) => {
+        story.hidden = i !== index;
+        gallerySwitch.children[i].setAttribute('aria-pressed', String(i === index));
+    });
+}
+stories.forEach((story, i) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = story.querySelector('h3').textContent;
+    button.addEventListener('click', () => selectStory(i));
+    gallerySwitch.append(button);
+});
+gallerySwitch.parentElement.classList.add('has-switch');
+selectStory(0);
+
+const projectList = document.querySelector('#project-list');
+const projectTools = document.querySelector('.timeline-tools');
+const previousProject = projectTools.querySelector('[data-back]');
+const nextProject = projectTools.querySelector('[data-forward]');
+const latestProject = projectTools.querySelector('[data-latest]');
+
+function updateProjectControls() {
+    const end = projectList.scrollWidth - projectList.clientWidth;
+    projectTools.hidden = end <= 1;
+    previousProject.disabled = projectList.scrollLeft <= 1;
+    nextProject.disabled = projectList.scrollLeft >= end - 1;
+    latestProject.disabled = nextProject.disabled;
+}
+
+function moveProject(direction) {
+    const positions = Array.from(projectList.children, card =>
+        card.getBoundingClientRect().left - projectList.getBoundingClientRect().left + projectList.scrollLeft
+    );
+    const target = direction > 0
+        ? positions.find(x => x > projectList.scrollLeft + 1)
+        : positions.reverse().find(x => x < projectList.scrollLeft - 1);
+    if (target !== undefined) projectList.scrollTo({ left: target });
+}
+
+previousProject.addEventListener('click', () => moveProject(-1));
+nextProject.addEventListener('click', () => moveProject(1));
+latestProject.addEventListener('click', () => projectList.scrollTo({ left: projectList.scrollWidth }));
+projectList.addEventListener('scroll', updateProjectControls, { passive: true });
+window.addEventListener('resize', updateProjectControls);
+updateProjectControls();

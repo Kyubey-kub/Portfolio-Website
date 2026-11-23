@@ -17,6 +17,7 @@
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Project</a>
+            <a href="#experience">Experience</a>
             <a href="#carousel">Certificate</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -28,14 +29,22 @@
             <h3>Hello, It's me</h3>
             <h1 class="cssanimation sequence leFadeIn">Somprasong Wasuwid</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>This portfolio show about all project i ever do. i hope you enjoy to watch this profolio thankyou.</p>
+            <p>I’m a fourth-year Computer Engineering student who builds full-stack web apps and Android software. At Inspire IVF, I wrote the app that let the team move LUNA’s arms and record gestures for live events. I’m looking for a full-time role in Android, full-stack development, or robotics.</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Kyubey-kub" aria-label="GitHub" title="GitHub"><i class="bx bxl-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/somprasong-wasuwid-271b64350/" aria-label="LinkedIn" title="LinkedIn"><i class="bx bxl-linkedin" aria-hidden="true"></i></a>
+                <a href="https://web.facebook.com/somprasong.wasuwid.7" aria-label="Facebook" title="Facebook"><i class="bx bxl-facebook-circle" aria-hidden="true"></i></a>
+                <a href="https://fastwork.com/user/somprasong" aria-label="Fastwork" title="Fastwork"><img src="img/fastwork.png" alt="" width="20" height="20"></a>
             </div>
-            <a href=""><span class="multiple-text2"></span></a>
+            <details class="download-picker">
+                <summary class="btn">Download <span aria-hidden="true">▾</span></summary>
+                <div class="download-options">
+                    <a href="documents/Somprasong-Resume.pdf" download>Resume <small>English</small></a>
+                    <a href="documents/Somprasong-Resume-Thai.pdf" download>Resume <small lang="th">ไทย</small></a>
+                    <a href="documents/Somprasong-CV.pdf" download>CV <small>English</small></a>
+                    <a href="documents/Somprasong-CV-Thai.pdf" download>CV <small lang="th">ไทย</small></a>
+                </div>
+            </details>
         </div>
         <div class="home-img">
             <img src="img/132553-removebg-preview.png" alt="">
@@ -49,64 +58,139 @@
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend Developer!</h3>
-            <p>Third-year Computer Engineering student at Rajamangala University of Technology Phra Nakhon, with a proven track record of applying AI technologies and developing innovative technical solutions. Demonstrated expertise in problem-solving and continuous learning, committed to leveraging cutting-edge technologies to address real-world challenges.</p>
-            <a href="" class="btn">Read More!</a>
+            <h3>Computer Engineering at RMUTP</h3>
+            <p>I’m in my fourth year at Rajamangala University of Technology Phra Nakhon, with a GPA of 3.91/4.00. I’ve been building websites for freelance clients since February 2024, including booking systems and database-backed login pages.</p>
+            <p>During my four-month internship at Inspire IVF, I was the only intern on the LUNA project. I connected a PC to the robot over WebSocket so the team could send commands and see whether each movement had finished. I also tested LUNA before three public events and presented the project to faculty after returning to university.</p>
+            <a href="#experience" class="btn">See the internship</a>
         </div>
     </section>
 
     <!-- service section design -->
     <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
+        <h2 class="heading">My <span>Services</span></h2>
         <div class="services-container">
             <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <p>Build responsive, user-friendly websites with HTML, CSS, JavaScript, React.js, and Node.js to help your business reach customers on any device. Focus on speed and security.</p>
-                <a href="#" class="btn">Read More!</a>
+                <i class="bx bx-code-alt" aria-hidden="true"></i>
+                <h3>Full-stack web development</h3>
+                <p>I build booking and inventory systems with React, TypeScript, Node.js, and MySQL. For a car showroom, I developed the interface, API, and database used to manage more than 100 vehicle records.</p>
             </div>
             <div class="services-box">
-                <i class='bx bxl-play-store'></i>
-                <h3>App Development</h3>
-                <p>Create seamless mobile and web apps with React Native, Java, PHP, and Python to boost user engagement. Covering both iOS and Android.</p>
-                <a href="#" class="btn">Read More!</a>
+                <i class="bx bx-bot" aria-hidden="true"></i>
+                <h3>Android &amp; robotics</h3>
+                <p>I build Kotlin and Jetpack Compose apps for physical devices. On LUNA, I implemented joint controls and a pose recorder so the team could save and replay arm movements.</p>
             </div>
             <div class="services-box">
-                <i class='bx bx-palette'></i>
-                <h3>UX/UI Designer</h3>
-                <p>Design beautiful, intuitive interfaces with Figma, Tailwind CSS, and Bootstrap to elevate your user experience and drive higher conversions.</p>
-                <a href="#" class="btn">Read More!</a>
+                <i class="bx bx-data" aria-hidden="true"></i>
+                <h3>Workflow &amp; database design</h3>
+                <p>I turn client requirements into flowcharts and database diagrams. My freelance work includes mapping a weather API workflow and modelling the data used in factory production.</p>
             </div>
         </div>
     </section>
 
     <!-- portfolio section design -->
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="img/Login&Register page.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Login & Register Full system Design</h4>
-                    <p>Created a single-page login and registration form with seamless animations, improving user experience and interface responsiveness.</p>
-                    <a href="https://68ede40ddcba6c179a71a6bf--dapper-crumble-bfb529.netlify.app/"><i class='bx bx-link'></i></a>
+        <h2 class="heading">Project <span>Timeline</span></h2>
+        <div class="timeline-tools" hidden role="group" aria-label="Browse projects">
+            <button type="button" data-latest aria-controls="project-list">Jump to latest</button>
+            <button type="button" data-back aria-controls="project-list" aria-label="Previous project">‹</button>
+            <button type="button" data-forward aria-controls="project-list" aria-label="Next project">›</button>
+        </div>
+        <ol class="project-timeline" id="project-list" tabindex="0" aria-label="Projects in chronological order">
+            <li>
+                <img src="img/factory-production/context.png" alt="Factory production system context diagram" loading="lazy">
+                <div>
+                    <p class="project-date"><time datetime="2024-08-04">4 Aug 2024</time></p>
+                    <h3>Factory Production System Analysis</h3>
+                    <p>I mapped how production, marketing, and finance share data across a factory, from department workflows to financial records.</p>
+                    <a href="factory-production.html">View 4 diagrams</a>
                 </div>
+            </li>
+            <li>
+                <img src="img/Screenshot 2025-10-10 163431.png" alt="" loading="lazy">
+                <div>
+                    <p class="project-date">Oct – Nov 2024</p>
+                    <h3>Headphone showcase</h3>
+                    <p>An animated product page for exploring Apple’s AirPods Max.</p>
+                    <a href="https://67d7c571e50e2c3293ad2341--headphone-slider-animation.netlify.app/" target="_blank" rel="noopener" aria-label="View website — Headphone showcase">View website</a>
+                </div>
+            </li>
+            <li>
+                <img src="img/Login&amp;Register page.png" alt="" loading="lazy">
+                <div>
+                    <p class="project-date">Nov – Dec 2024</p>
+                    <h3>Animated login &amp; registration</h3>
+                    <p>A single-page interface that switches between signing in and creating an account.</p>
+                    <a href="https://68ede40ddcba6c179a71a6bf--dapper-crumble-bfb529.netlify.app/" target="_blank" rel="noopener" aria-label="View website — Animated login &amp; registration">View website</a>
+                </div>
+            </li>
+            <li>
+                <img src="img/Screenshot 2025-10-10 162641.png" alt="" loading="lazy">
+                <div>
+                    <p class="project-date">Feb – May 2025</p>
+                    <h3>Car showroom management</h3>
+                    <p>A full-stack application for managing vehicle inventory and customer records.</p>
+                    <a href="https://web-carshowroom-system-git-main-kyubeys-projects-6700978a.vercel.app/login" target="_blank" rel="noopener" aria-label="View website — Car showroom management">View website</a>
+                </div>
+            </li>
+            <li>
+                <img src="img/baanchang-mobile.png" alt="" loading="lazy">
+                <div>
+                    <p class="project-date">Latest project</p>
+                    <h3>BaanChang · บ้านช่าง</h3>
+                    <p>A mobile prototype for finding local tradespeople by trade or province and comparing their prices.</p>
+                    <a href="https://www.figma.com/proto/qq7L5H6hUPKwBMhRVlc03h/BaanChang-%E2%80%93-Mobile-UI-v1?node-id=15-2&amp;page-id=0%3A1&amp;starting-point-node-id=34%3A541&amp;scaling=scale-down&amp;content-scaling=fixed&amp;t=oUoKRPdLaMaVXrHw-1" target="_blank" rel="noopener" aria-label="Open Figma prototype — BaanChang · บ้านช่าง">Open Figma prototype</a>
+                </div>
+            </li>
+        </ol>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Internship &amp; <span>Events</span></h2>
+        <div class="gallery-switch" role="group" aria-label="Choose an experience"></div>
+        <div class="experience-grid">
+            <div class="experience-group">
+                <h3>Robotics internship</h3>
+                <figure>
+                    <a href="img/experience/luna-internship.webp" aria-label="View full photo: Standing beside LUNA at Inspire IVF."><img src="img/experience/luna-internship.webp" width="900" height="1200" loading="lazy" alt="Standing beside LUNA at Inspire IVF."></a>
+                    <figcaption><strong>1 Jun – 2 Oct 2026 · Inspire IVF</strong>I developed control software for LUNA, the clinic’s UBTECH Cruzr 1S service robot, during my telemedicine and robotics internship.</figcaption>
+                </figure>
+                <figure>
+                    <a href="img/experience/luna-testing.webp" aria-label="View full photo: Testing LUNA’s arm movements in the clinic."><img src="img/experience/luna-testing.webp" width="1200" height="900" loading="lazy" alt="Testing LUNA’s arm movements in the clinic."></a>
+                    <figcaption><strong>1 Jun – 2 Oct 2026 · Inspire IVF</strong>I tested joint angles and recorded arm poses with my Android app before using the gestures in public demonstrations.</figcaption>
+                </figure>
             </div>
-            <div class="portfolio-box">
-                <img src="img/Screenshot 2025-10-10 162641.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Car Showroom Management</h4>
-                    <p>Developed a responsive web application for car showroom operations, featuring a user-friendly interface and efficient database management for inventory and customer data.</p>
-                    <a href="https://web-carshowroom-system-git-main-kyubeys-projects-6700978a.vercel.app/login"><i class='bx bx-link'></i></a>
-                </div>
+            <div class="experience-group">
+                <h3>MAI Forum</h3>
+                <figure>
+                    <a href="img/experience/mai.webp" aria-label="View full photo: LUNA at the Inspire IVF booth during the MAI event."><img src="img/experience/mai.webp" width="1200" height="900" loading="lazy" alt="LUNA at the Inspire IVF booth during the MAI event."></a>
+                    <figcaption><strong>4 Jul 2026 · Bangkok Convention Centre, Centara Grand at CentralWorld</strong>At MAI Forum, I helped set up LUNA at the Inspire IVF booth and supported the robot on the exhibition floor.</figcaption>
+                </figure>
+                <figure>
+                    <a href="img/experience/mai-booth.webp"><img src="img/experience/mai-booth.webp" width="1200" height="900" loading="lazy" alt="Visitors gathered around the Inspire IVF booth at MAI Forum."></a>
+                    <figcaption><strong>4 Jul 2026 · MAI Forum exhibition floor</strong>Visitors met the Inspire IVF team and saw LUNA in person at the booth.</figcaption>
+                </figure>
             </div>
-            <div class="portfolio-box">
-                <img src="img/Screenshot 2025-10-10 163431.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Apple Head Phone Animation Website</h4>
-                    <p>Built a product showcase website with animated transitions for Apple headphones, enhancing visual appeal and user interaction.</p>
-                    <a href="https://67d7c571e50e2c3293ad2341--headphone-slider-animation.netlify.app/"><i class='bx bx-link'></i></a>
-                </div>
+            <div class="experience-group">
+                <h3>Opportunity Day</h3>
+                <figure>
+                    <a href="img/experience/opportunity-day.webp" aria-label="View full photo: Behind the cameras at Opportunity Day, with LUNA beside the panel."><img src="img/experience/opportunity-day.webp" width="1200" height="800" loading="lazy" alt="Behind the cameras at Opportunity Day, with LUNA beside the panel."></a>
+                    <figcaption><strong>26 Aug 2026 · Inspire IVF Opportunity Day, hosted by the Stock Exchange of Thailand</strong>I tested LUNA for the Q2 earnings livestream, where the robot helped present company information to investors. <a class="recording-link" href="https://www.youtube.com/live/t8HJXbuOeMs?si=s8OoHin8GuUIRgJQ" target="_blank" rel="noopener">Watch the Opportunity Day recording on YouTube</a></figcaption>
+                </figure>
+                <figure>
+                    <a href="img/experience/opportunity-day-preparation.webp"><img src="img/experience/opportunity-day-preparation.webp" width="1200" height="800" loading="lazy" alt="Preparing LUNA beside the Inspire IVF backdrop for Opportunity Day."></a>
+                    <figcaption><strong>26 Aug 2026 · Inspire IVF Opportunity Day</strong>Before the broadcast, I checked that LUNA was ready to join the panel for the investor presentation.</figcaption>
+                </figure>
+            </div>
+            <div class="experience-group">
+                <h3>Co-op presentation</h3>
+                <figure>
+                    <a href="img/experience/project-presentation.webp" aria-label="View full photo: Presenting the project on stage after my internship."><img src="img/experience/project-presentation.webp" width="1200" height="676" loading="lazy" alt="Presenting the project on stage after my internship."></a>
+                    <figcaption><strong>19 Oct 2026 · Faculty of Engineering, RMUTP</strong>I presented “Telemedicine Integration with AI & Robotics” at the university’s co-op project presentation.</figcaption>
+                </figure>
+                <figure>
+                    <a href="img/experience/competition-team.webp" aria-label="View full photo: A group photo on stage at the project competition."><img src="img/experience/competition-team.webp" width="1200" height="676" loading="lazy" alt="A group photo on stage at the project competition."></a>
+                    <figcaption><strong>19 Oct 2026 · Faculty of Engineering, RMUTP</strong>Back on campus after the internship, I answered faculty questions about the LUNA project during the presentation session.</figcaption>
+                </figure>
             </div>
         </div>
     </section>
@@ -117,10 +201,10 @@
         <div class="carousel-wrapper">
             <ul class="carousel-slides"></ul>
             <div class="controls">
-                <button class="control previous" title="Go to previous slide">
-                    <i class='bx bx-chevron-left'></i>
+                <button class="control previous" aria-label="Previous certificate">
+                    <i class='bx bx-chevron-left' aria-hidden='true'></i>
                 </button>
-                <button class="control next" title="Go to next slide">
+                <button class="control next" aria-label="Next certificate">
                     <i class='bx bx-chevron-right'></i>
                 </button>
             </div>
@@ -130,16 +214,17 @@
     <!-- contact section design -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me !</span></h2>
-        <form action="#">
+        <form action="https://formsubmit.co/somprasongwasuwid@gmail.com" method="post">
+            <p class="direct-email">Email me at <a href="mailto:somprasongwasuwid@gmail.com">somprasongwasuwid@gmail.com</a> or send a message below.</p>
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="name" aria-label="Full Name" placeholder="Full Name" autocomplete="name" required>
+                <input type="email" name="email" aria-label="Email Address" placeholder="Email Address" autocomplete="email" required>
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="tel" name="phone" aria-label="Mobile Number" placeholder="Mobile Number" autocomplete="tel">
+                <input type="text" name="_subject" aria-label="Email Subject" placeholder="Email Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" required aria-label="Your Message" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
