@@ -33,7 +33,7 @@
 
 <!-- Quick Links -->
 <p>
-  <a href="https://imaginative-dusk-9f95ff.netlify.app/#home">
+  <a href="https://somprasong-wasuwid.netlify.app/">
     <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-667eea?style=for-the-badge" alt="Live Demo"/>
   </a>
   <a href="https://github.com/Kyubey-kub/Web-Portfolio">
